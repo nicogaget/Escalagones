@@ -1,3 +1,5 @@
+/*footer - Justine*/
+
 html {
     height: 100%
   }
@@ -6,7 +8,8 @@ body{
     min-height: 100%;
     margin: 0;
     padding: 0;
-    position: relative;
+    min-height: 100%;
+    display: flex;
 }
 
 .btn-navigation{
@@ -65,12 +68,9 @@ body{
 
 
 footer {
-    background-color: black;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0
+    background-color: #292b2c;
+    margin-top: auto;
+    width: 100%;
 }
 
 .liens-footer {
@@ -79,18 +79,24 @@ footer {
     margin: 25px auto;
 }
 
-footer p {
+footer a {
     text-align: center;
     padding: 5px;
     margin: 5px;
+    
 }
 
+footer a:link{
+    text-decoration: none;
+    color: #5cb85c;
+}
 
 .réseaux-sociaux {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 footer img {
@@ -103,6 +109,11 @@ footer img {
 
 @media only screen and (min-width: 961px) {
     footer {
-        
+
+        footer a:hover {
+            text-decoration: none;
+            color: #5bc0de;
+
     }
 }
+/*fin footer - Justine*/
