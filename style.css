@@ -5,24 +5,40 @@
     align-items: center;
     color: white;
     justify-content: center;
-    background-image: url("banniere.jpeg");
+    background-image: url("banniere_mobile.jpeg");
     height: 300px;
+    width: auto;
 }
 
 section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 article{
-    border: 1px dotted black;
+    border: 1px solid cadetblue;
     margin: 10px;
     padding: 10px;
     width: 400px;
     height: auto;
+    border-radius: 15px 0px 15px 0px;
 }
 
-article h3{
+
+article a{
+    text-decoration: none;
+    color: black;
     text-align: center;
+}
+
+.button{
+    border: 1px solid cadetblue;
+    border-radius: 3px;
+    padding : 5px;
+    background-color: cadetblue;
+    text-decoration: none;
+    color: white;
 }
