@@ -1,6 +1,6 @@
 /*footer - Justine*/
 
- html {
+html {
     height: 100%
   }
 
@@ -8,15 +8,14 @@ body{
     min-height: 100%;
     margin: 0;
     padding: 0;
-    position: relative;
+    min-height: 100%;
+    display: flex;
 }
 
 footer {
     background-color: #292b2c;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0
+    margin-top: auto;
+    width: 100%;
 }
 
 .liens-footer {
