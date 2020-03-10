@@ -1,3 +1,76 @@
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section div{
+    margin: 10px;
+
+}
+
+#banniere{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url(images/ac_banniere_mobile.jpeg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*#banniere{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background-image: url("images/ac_banniere_mobile.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    border: 1px solid cadetblue;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    border-radius: 15px 0px 15px 0px;
+}
+
+
+article a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.button{
+    border: 1px solid cadetblue;
+    border-radius: 3px;
+    padding : 5px;
+    background-color: cadetblue;
+    text-decoration: none;
+    color: white;
+}
 html {
     height: 100%
   }
@@ -98,11 +171,4 @@ footer img {
     height: 40px;
     padding: 5px;
     margin: 5px;
-}
-
-
-@media only screen and (min-width: 961px) {
-    footer {
-        
-    }
 }
