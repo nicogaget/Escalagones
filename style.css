@@ -1,1 +1,55 @@
 /*   */
+=======
+html {
+    height: 100%
+  }
+
+body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.liens-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+}
+
+footer p {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.réseaux-sociaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media only screen and (min-width: 961px) {
+    footer {
+        
+    }
+}
+
