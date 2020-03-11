@@ -99,14 +99,14 @@ body {
 
     /* début css amélie */
 
-section {
+.cardHomePage{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-section div {
+.cardHomePage div {
     margin: 10px;
 
 }
@@ -158,22 +158,38 @@ footer {
     width: 50%;
 }
 
-.block {
+.cardSalles  {
     display: flex;
-
-    justify-content: space-evenly;
-}
-
-.voie {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.parasalles {
+.cardSalles .card {
+    margin: 10px;
+    height: 600px;
+}
+
+.voie  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.paraesca {
     margin : 10px;
     border: 1px solid red;
+    height: 250px;
+    padding: 10px;
 }
+
+
 
 iframe {
     text-align: center;
