@@ -106,3 +106,24 @@ footer img {
         
     }
 }
+
+
+/* CSS Pascal pages pour salles intérieures  extérieures */
+
+.block {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.voie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.listing_block {
+    display: flex;
+}
