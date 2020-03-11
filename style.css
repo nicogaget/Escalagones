@@ -171,7 +171,7 @@ body {
 
 @media only screen and (min-width: 961px) {
     /* debut responsive nico */
-    /* en attente
+    
     .nav-bar{
         background-color: #5cb85c;
         color: rgb(255, 255, 255);
@@ -208,7 +208,7 @@ body {
         font-style: italic;   
     }
     */
-    /* fin responsive nico */
+    
     
     footer a:hover {
         text-decoration: none;
