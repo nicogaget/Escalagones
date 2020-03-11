@@ -8,6 +8,7 @@ body {
 }
 
 
+@media only screen and (max-width: 961px){
 
     .page-title {
         font-size: 36px;
@@ -164,49 +165,8 @@ body {
         padding: 5px;
         margin: 5px;
     }
-
+}
     /* fin css justine */
-/* 
- Début CSS Pascal */
-
-.intro_bloc_voie {
-    display: flex;
-}
-
-.intro_para {
-    width: 50%;
-}
-
-.block {
-    display: flex;
-
-    justify-content: space-evenly;
-}
-
-.voie {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-iframe {
-    text-align: center;
-    justify-content: center;
-    border: 2px solid red;
-}
-
-.listing_block {
-    display: flex;
-}
-
-.ul_block {
-    display: flex;
-    justify-content: space-around;
-    width:100%;
-    border : 1px solid red;
-}
-
-.intro_bloc_voie {}
 
 
 @media only screen and (min-width: 961px) {
@@ -230,11 +190,23 @@ iframe {
 
 /* CSS Pascal pages pour salles intérieures  extérieures */
 
+.block {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.voie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 
 
-
-
+.listing_block {
+    display: flex;
+}
 
     .nav-bar li{
 
