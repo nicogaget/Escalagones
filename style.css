@@ -11,28 +11,9 @@ body {
 
 /* @media only screen and (max-width: 961px) Amélie : Je supprime la media queries pour le mobile, on travaille en mobile first et on utilise une seule media queries au delà de 961px pour modifier ce qu'il y a à modifier en desktop */
 
-.page-title {
-    font-size: 36px;
-    padding: 20px;
-    width: 80%;
-    background: rgb(0, 195, 255);
-    color: white;
-    text-align: center;
-    width: 100%;
-    
-}
-
-.page-title h1 {
-    margin-top: 0;
-}
-
-.page-title a {
-    color: white;
-    
-}
 
 .btn-navigation {
-    position: absolute;
+    position: fixed;
     right: 30px;
     top: 50px;
     z-index: 20;
@@ -52,7 +33,7 @@ body {
     background: white;
 }
 
-.nav-bar {
+.nav-bar-escalade {
     position: fixed;
     right: 0;
     background-color: #5cb85c;
@@ -67,29 +48,32 @@ body {
     --webkit-transition:transition: transform 1s ease-in-out;
 }
 
-.nav-bar.isOpen {
+.nav-bar-escalade.isOpen {
     transform: translateX(0%);
     --webkit-transform: translateX(0%);
     transition: transform 1s ease-in-out;
     --webkit-transition:transition: transform 1s ease-in-out;
 }
 
-.nav-bar ul {
+.nav-bar-escalade ul {
+    display: flex;
+    flex-direction: column;
     margin-top: 200px;
 }
 
-.nav-bar ul li {
+.nav-bar-escalade ul li {
+
     margin: 30px 0;
     padding: 5px;
     list-style-type: none;
 }
 
-.nav-bar ul li a {
+.nav-bar-escalade ul li a {
     font-size: 24px;
     color: white;
     text-decoration: none;   
 }
-.nav-bar ul li a:hover {
+.nav-bar-escalade ul li a:hover {
     padding: 10px;
     font-size: 24px;
     color: #5cb85c;
@@ -173,48 +157,64 @@ footer img {
     padding: 5px;
     margin: 5px;
 }
+
 /* fin css justine */
 
 
 @media only screen and (min-width: 961px) {
     /* debut responsive nico */
     
-    .nav-bar{
-        background-color: #5cb85c;
-        color: rgb(255, 255, 255);
-         
-    }
-    .nav-bar ul{
-        display: flex;
-        justify-content: space-around;
-        font-weight: bold;
-        
-        
-    }
+   .btn-navigation {
+    display: none;
+}
 
-    .nav-bar li{
+.nav-bar-escalade {
+    position: relative;
+    right: 0;
+    background-color: #5cb85c;
+    opacity: 1;
+    height: 80px;
+    z-index:0;
 
+}
+
+.nav-bar-escalade.isOpen {
+    transform: translateX(0%);
+    --webkit-transform: translateX(0%);
+    transition: transform 1s ease-in-out;
+    --webkit-transition:transition: transform 1s ease-in-out;
+}
+
+.nav-bar-escalade ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-around;
+
+}
+
+.nav-bar-escalade ul li {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+    padding: 5px;
     list-style-type: none;
-    display: inline-block;
-    padding: 10px;
-    border: 0px solid #5cb85c;
 
-    }
-    .nav-bar ul li a {
-    padding: 10px;
+}
+
+.nav-bar-escalade ul li a {
     font-size: 24px;
     color: white;
-    text-decoration: none;
-
-    }
-    .nav-bar ul li a:hover {
+    text-decoration: none;   
+}
+.nav-bar-escalade ul li a:hover {
     padding: 10px;
     font-size: 24px;
     color: #5cb85c;
     text-decoration: none; 
-    background-color: white;
-    font-style: italic;   
-    }
+    background-color: aliceblue;  
+}
 
     
     /* fin responsive nico */
