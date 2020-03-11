@@ -2,56 +2,117 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
     <title>Escalagones - Grimper Ensemble</title>
 </head>
 
 <body>
-    <! -- Code pour la page "Grimper Ensemble" -->
-    <! -- Section contenant les évènements deja saisis -->
+    <!-- Code pour la page "Grimper Ensemble"-->
 
-    <h3>Les évènements à venir</h3>
-    <div>
-        <!-- Evènement 1-->
-        <img src="Images/gd_climber_force.jpg">
-        <p>Photo on <a href="https://visualhunt.com/re6/95a6fcb0">Visual hunt</a></p>
-        <h4>Challenge Grimpe !</h4>
-        <p>Rejoignez-nous ce samedi 14 mars pour notre nouveau challenge chronométré : un seul grimpeur sera vainqueur !</p>
-    </div>
+        <h2>Grimper Ensemble</h2>
 
+        <!-- Section contenant les évènements deja saisis -->
 
-    <! -- Section pour trouver Partenaires de grimpe -->
-
-    <h3>Trouver votre nouveau partenaire de Grimpe !</h3>
-    <div>
-        <img src="Images/gd_pascal.png"">
-        <h4>Pascal</h4>
-        <p>Pascal, nouveau grimpeur à Villeurbanne cherche un(e) partenaire de grimpe, contactez le ici.</p>
-    </div>
+            <h3>Les évènements à venir</h3>
+            <section class="sectionCards">
+                <!-- Evènement 1-->
+                <div class="card" style="width: 18rem;">
+                    <img src="images/gd_climber_force.jpg" class="card-img-top"
+                        alt="Une personne escalade un mur en intérieur">
+                    <div class="card-body">
+                        <h5 class="card-title">Challenge Grimpe</h5>
+                        <p class="card-text">Photo on <a href="https://visualhunt.com/re6/95a6fcb0">Visual hunt</a></p>
+                        <p>Rejoignez-nous ce samedi 14 mars pour notre nouveau challenge chronométré : un seul grimpeur
+                            sera vainqueur !</p>
+                        <a href="#" class="btn btn-success">Voir l'évènement</a>
+                    </div>
 
 
+                </div>
+                <!-- Evènement 2-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/gd_iceClimb.jpg" class="card-img-top"
+                            alt="Deux grimpeurs sur une cascade gelée">
+                        <div class="card-body">
+                            <h5 class="card-title">Ice Climbing !</h5>
+                            <p class="card-text">Image par <a
+                                    href="https://pixabay.com/fr/users/Gipfelsturm69-2191891/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1247606">Gipfelsturm69</a>
+                                de <a
+                                    href="https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1247606">Pixabay</a>
+                            </p>
+                            <p>Dimanche 22 mars, nous vous proposons de venir affronter les torrents glacés des Alpes.
+                                Au programme, escalade d'une cascade gelée, qui promet pas mal de frissons !
+                            </p>
+                            <a href="#" class="btn btn-success">Voir l'évènement</a>
+                        </div>
+                    </div>
+            </section>
 
-<! -- Formulaire de contact -->
-<form>
-    
-    <h3>Proposer un évènement</h3>
+            <!-- Section pour trouver Partenaires de grimpe -->
 
-    <! -- Menu déroulant avec les différents choix -->
+                <h3>Trouver votre nouveau partenaire de Grimpe !</h3>
+                <section class="sectionCards">
 
-    <select> 
-        <option>Je souhaite proposer un évènement</option>
-        <option>Je souhaite proposer un lieu</option>
-        <option>Je souhaite vous féliciter</option>
-    </select>
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/gd_pascal.png" class="card-img-top" alt="Photo de Pascal">
+                        <div class="card-body">
+                            <h5 class="card-title">Pascal</h5>
+                            <p class="card-text">Pascal, nouveau grimpeur à Villeurbanne cherche un(e) partenaire de
+                                grimpe, contactez-le ici.</p>
+                            <a href="#" class="btn btn-success">Le contacter</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                            <img src="images/gd_amelie.png" class="card-img-top" alt="Photo de Pascal">
+                            <div class="card-body">
+                                <h5 class="card-title">Amélie</h5>
+                                <p class="card-text">Amélie, grimpeuse expérimentée, cherche un(e) partenaire de grimpe,
+                                    contactez-la ici.</p>
+                                <a href="#" class="btn btn-success">La contacter</a>
+                            </div>
+                    </div>
+                </section>
+                <!-- Formulaire de contact -->
 
-    <! -- Input de l'email et du message de l'utilisateur -->
+                        <h3>Proposer un évènement</h3>
 
-    <input type=" email" placeholder="@">
-                    <textarea placeholder="Votre message"></textarea>
+                        <!-- Menu déroulant avec les différents choix -->
 
+                            <div class="form-group">
+                                <select class="custom-select" required>
+                                    <option value="1">Je souhaite proposer un évènement</option>
+                                    <option value="2">Je souhaite proposer un lieu</option>
+                                    <option value="3">Je souhaite vous féliciter</option>
+                                </select>
+                                <div class="invalid-feedback">Merci de choisir une proposition valable</div>
+                            </div>
 
-                    </form>
+                            <!-- Input de l'email et du message de l'utilisateur -->
 
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Merci de saisir votre email ici">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                        anyone else.</small>
+                                </div>
+
+                                <form class="was-validated">
+                                    <div class="mb-3">
+                                        <textarea class="form-control is-invalid" id="validationTextarea"
+                                            placeholder="Merci de taper votre message ici" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please enter a message in the textarea.
+                                        </div>
+                                    </div>
+
+                                </form>
 
 </body>
 
