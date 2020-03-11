@@ -1,0 +1,227 @@
+/*   */
+html {
+    height: 100%
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* @media only screen and (max-width: 961px) Amélie : Je supprime la media queries pour le mobile, on travaille en mobile first et on utilise une seule media queries au delà de 961px pour modifier ce qu'il y a à modifier en desktop */
+
+.page-title {
+    font-size: 36px;
+    padding: 20px;
+    width: 80%;
+    background: rgb(0, 195, 255);
+    color: white;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.page-title h1 {
+    margin-top: 0;
+}
+
+.page-title a {
+    color: white;
+    
+}
+
+.btn-navigation {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.btn-navigation .barre {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin-top: 6px;
+    transition: background 2s ease-in-out;
+    --webkit-transition:background : transform 2s ease-in-out;
+}
+
+.btn-navigation .barre.white {
+    background: white;
+}
+
+.nav-bar {
+    position: fixed;
+    right: 0;
+    background-color: #5cb85c;
+    opacity: 1;
+    min-width: 23%;
+    height: 100%;
+    z-index: 1;
+
+    transform: translateX(100%);
+    --webkit-transform: translateX(100%);
+    transition: transform 1s ease-in-out;
+    --webkit-transition:transition: transform 1s ease-in-out;
+}
+
+.nav-bar.isOpen {
+    transform: translateX(0%);
+    --webkit-transform: translateX(0%);
+    transition: transform 1s ease-in-out;
+    --webkit-transition:transition: transform 1s ease-in-out;
+}
+
+.nav-bar ul {
+    margin-top: 200px;
+}
+
+.nav-bar ul li {
+    margin: 30px 0;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.nav-bar ul li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;   
+}
+.nav-bar ul li a:hover {
+    padding: 10px;
+    font-size: 24px;
+    color: #5cb85c;
+    text-decoration: none; 
+    background-color: aliceblue;  
+}
+
+/* fin css nico */
+
+    /* début css amélie */
+
+.cardHomePage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardHomePage div {
+    margin: 10px;
+
+}
+
+#banniere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url(images/ac_banniere_mobile2.jpeg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banniere h2, #banniere p{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding : 5px 10px;
+}
+
+/* fin css amélie */
+
+/* début css justine */
+footer {
+    background-color: #292b2c;
+    margin-top: auto;
+    width: 100%;
+}
+
+.liens-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+}
+
+footer a {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+footer a:link{
+    text-decoration: none;
+    color: #5cb85c;
+}
+
+.reseaux-sociaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+}
+/* fin css justine */
+
+
+@media only screen and (min-width: 961px) {
+    /* debut responsive nico */
+    
+    .nav-bar{
+        background-color: #5cb85c;
+        color: rgb(255, 255, 255);
+         
+    }
+    .nav-bar ul{
+        display: flex;
+        justify-content: space-around;
+        font-weight: bold;
+        
+        
+    }
+
+    .nav-bar li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    border: 0px solid #5cb85c;
+
+    }
+    .nav-bar ul li a {
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+
+    }
+    .nav-bar ul li a:hover {
+    padding: 10px;
+    font-size: 24px;
+    color: #5cb85c;
+    text-decoration: none; 
+    background-color: white;
+    font-style: italic;   
+    }
+
+    
+    /* fin responsive nico */
+    
+    footer a:hover {
+        text-decoration: none;
+        color: #5bc0de;
+    }
+
+}
