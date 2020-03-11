@@ -9,6 +9,22 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Style pour titres toutes pages */
+
+h2 {
+    color : white;
+    background-color: #292b2c;
+    font-family: "Arial", sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+h3 {
+    color : #292b2c;
+    padding : 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* CSS spécifique page grimperEnsemble.html */
 
 .sectionForm {
@@ -24,6 +40,9 @@ body {
     position : relative;
 }
 
+.cardButtonDiv {
+    display : flex;
+}
 .cardButton {
     position: absolute;
     bottom: 0;
@@ -39,6 +58,7 @@ body {
     font-style: italic;
     font-size: 0.8em;
     color : grey;
+
 }
 
 .creditPhoto a {
