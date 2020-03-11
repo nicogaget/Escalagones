@@ -170,6 +170,11 @@ footer {
     justify-content: space-evenly;
 }
 
+.parasalles {
+    margin : 10px;
+    border: 1px solid red;
+}
+
 iframe {
     text-align: center;
     justify-content: center;
