@@ -1,38 +1,76 @@
-
+/*   */
 html {
-    height: 100%
-  }
-
-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: 100%;
+    width : 100%;
 }
-
-section div {
-    margin: 10px;
-
-}
-
-#banniere {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-image: url(images/ac_banniere_mobile.jpeg);
-    height: 300px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+/* Style pour titres toutes pages */
+
+h2 {
+    color : white;
+    background-color: #292b2c;
+    font-family: "Arial", sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+h3 {
+    color : #292b2c;
+    padding : 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* CSS spécifique page grimperEnsemble.html */
+
+.sectionForm {
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    width : 100%;
+}
+.form-group {
+    width : 80%
+}
+.card_body{
+    position : relative;
+}
+
+.cardButtonDiv {
+    display : flex;
+}
+.cardButton {
+    position: absolute;
+    bottom: 0;
+    margin : 10px auto;
+}
+
+#formButton {
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+.creditPhoto {
+    font-style: italic;
+    font-size: 0.8em;
+    color : grey;
+
+}
+
+.creditPhoto a {
+    font-style: italic;
+    color : grey;
+}
+
+/* fin CSS Jeff */
+
+
+/* @media only screen and (max-width: 961px) Amélie : Je supprime la media queries pour le mobile, on travaille en mobile first et on utilise une seule media queries au delà de 961px pour modifier ce qu'il y a à modifier en desktop */
+
 .page-title {
     font-size: 36px;
     padding: 20px;
@@ -77,12 +115,16 @@ body {
 .nav-bar {
     position: fixed;
     right: 0;
-    background-color: rgb(0, 195, 255);
-    min-width: 20%;
+    background-color: #5cb85c;
+    opacity: 1;
+    min-width: 23%;
     height: 100%;
-   
+    z-index: 1;
+
     transform: translateX(100%);
     --webkit-transform: translateX(100%);
+    transition: transform 1s ease-in-out;
+    --webkit-transition:transition: transform 1s ease-in-out;
 }
 
 .nav-bar.isOpen {
@@ -98,6 +140,7 @@ body {
 
 .nav-bar ul li {
     margin: 30px 0;
+    padding: 5px;
     list-style-type: none;
 }
 
@@ -106,8 +149,52 @@ body {
     color: white;
     text-decoration: none;   
 }
+.nav-bar ul li a:hover {
+    padding: 10px;
+    font-size: 24px;
+    color: #5cb85c;
+    text-decoration: none; 
+    background-color: aliceblue;  
+}
+
 /* fin css nico */
-  
+
+    /* début css amélie */
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section div {
+    margin: 10px;
+
+}
+
+#banniere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url(images/ac_banniere_mobile2.jpeg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banniere h2, #banniere p{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding : 5px 10px;
+}
+
+/* fin css amélie */
+
+/* début css justine */
 footer {
     background-color: #292b2c;
     margin-top: auto;
@@ -152,38 +239,81 @@ footer img {
     padding: 5px;
     margin: 5px;
 }
+/* fin css justine */
 
 
 @media only screen and (min-width: 961px) {
-
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+    /* debut responsive nico */
     
-    footer a {
-        text-align: left;
-        padding: 1px;
-        margin: 1px;
+    .nav-bar{
+        background-color: #5cb85c;
+        color: rgb(255, 255, 255);
+         
+    }
+    .nav-bar ul{
+        display: flex;
+        justify-content: space-around;
+        font-weight: bold;
+        
+        
     }
 
-    footer a:hover {
+    .nav-bar li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    border: 0px solid #5cb85c;
+
+    }
+    .nav-bar ul li a {
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+
+    }
+    .nav-bar ul li a:hover {
+    padding: 10px;
+    font-size: 24px;
+    color: #5cb85c;
+    text-decoration: none; 
+    background-color: white;
+    font-style: italic;   
+    }
+
+    
+    /* fin responsive nico */
+    
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer a {
+    text-align: left;
+    padding: 1px;
+    margin: 1px;
+}
+
+footer a:hover {
         text-decoration: none;
         color:#5cb85c;
     }
-    footer img {
+footer img {
         width: 50px;
         height: 50px;
         margin: 15px;
         padding: 0px;
     }
     
-    .liens-footer {
+.liens-footer {
         margin: 0px;
         padding: 30px;
     }
     
-    .reseaux-sociaux {
-        padding: 30px;
+.reseaux-sociaux {
+    padding: 30px;
     }
+}
