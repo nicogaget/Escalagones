@@ -1,3 +1,4 @@
+/*   */
 html {
     height: 100%
 }
@@ -184,34 +185,37 @@ body {
         
         
     }
+
     .nav-bar li{
-        
-        list-style-type: none;
-        display: inline-block;
-        padding: 10px;
-        border: 0px solid #5cb85c;
-        
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    border: 0px solid #5cb85c;
+
     }
     .nav-bar ul li a {
-        padding: 10px;
-        font-size: 24px;
-        color: white;
-        text-decoration: none;
- 
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+
     }
     .nav-bar ul li a:hover {
-        padding: 10px;
-        font-size: 24px;
-        color: #5cb85c;
-        text-decoration: none; 
-        background-color: white;
-        font-style: italic;   
+    padding: 10px;
+    font-size: 24px;
+    color: #5cb85c;
+    text-decoration: none; 
+    background-color: white;
+    font-style: italic;   
     }
-    */
+
     
+    /* fin responsive nico */
     
     footer a:hover {
         text-decoration: none;
         color: #5bc0de;
     }
+
 }
