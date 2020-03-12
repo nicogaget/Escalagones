@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    display: flex;
     flex-direction: column;
 }
 
@@ -300,14 +299,14 @@ h3 {
 
     /* début css amélie */
 
-.cardHomePage{
+.cardHomePage, .sectionCards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.cardHomePage div {
+.cardHomePage div, .sectionCards div {
     margin: 10px;
 
 }
