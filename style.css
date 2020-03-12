@@ -151,6 +151,11 @@ body {
 
 /* Style pour titres toutes pages */
 
+.card-text {
+    padding-bottom : 20px;
+}
+
+
 h2 {
     color : white;
     background-color: #292b2c;
@@ -161,7 +166,7 @@ h2 {
 
 h3 {
     color : #292b2c;
-    padding : 10px;
+    padding : 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -172,9 +177,11 @@ h3 {
     flex-direction: column;
     align-items : center;
     width : 100%;
+    margin-bottom: 50px;
 }
 .form-group {
-    width : 80%
+    width : 80%;
+    padding : 10px;
 }
 .card_body{
     position : relative;
@@ -186,7 +193,7 @@ h3 {
 .cardButton {
     position: absolute;
     bottom: 0;
-    margin : 10px auto;
+    margin : 20px auto;
 }
 
 #formButton {
@@ -198,12 +205,12 @@ h3 {
     font-style: italic;
     font-size: 0.8em;
     color : grey;
-
 }
 
 .creditPhoto a {
     font-style: italic;
     color : grey;
+    text-align: left;
 }
 
 /* fin CSS Jeff */
