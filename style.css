@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
 }
 
 #titrepage{
@@ -351,13 +349,44 @@ footer {
 /* 
  Début CSS Pascal */
 
-.intro_bloc_voie {
-    display: flex;
+#accordion {
+    width: 80%;
+    margin : auto;
+    min-width: 20%;
 }
 
-.intro_para {
-    width: 50%;
+
+.btn {
+    color: white;
 }
+
+
+
+.intro_bloc_voie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    }
+
+
+.intro_para {
+    text-align: center;
+    width: 60%;
+    padding:5px 10px;
+    border:2px solid black;
+    border-radius: 10px;
+
+}
+
+.intro_bloc_voie img {
+    margin: 20px;
+    width: 60%;    
+    height: auto;
+    border:1.5px solid #5cb85c;
+    border-radius: 10px;
+}
+
 
 .cardSalles  {
     display: flex;
@@ -370,7 +399,7 @@ footer {
 
 .cardSalles .card {
     margin: 10px;
-    height: 600px;
+    height: 300px;
 }
 
 .voie  {
@@ -385,7 +414,6 @@ footer {
 
 .paraesca {
     margin : 10px;
-    border: 1px solid red;
     height: 250px;
     padding: 10px;
 }
@@ -395,7 +423,6 @@ footer {
 iframe {
     text-align: center;
     justify-content: center;
-    border: 2px solid red;
     width: 100%;
     height: 100%;
 }
@@ -411,9 +438,7 @@ iframe {
     border : 1px solid red;
 }
 
-.intro_bloc_voie {
-    display: flex;
-}
+/* Fin CSS Pascal */
 
 .liens-footer {
     display: flex;

@@ -12,24 +12,29 @@
 
 <body>
 
-    <h2> Grimper en salle: Blocs et voies </h2>
+    <h2 id="grimperensalle"> Grimper en salle: Blocs et voies </h2>
 
 
     <!-- Test accrodion -->
     <section class="menuAccordion">
 
+        <div class="intro_bloc_voie">
+            <p class="intro_para"> Grimper en bloc ou en voie, c'est possible sur Lyon et ses alentours, petite revue des sites inmanquables.</p>
+            <img src="images/pp_voie4.jpg" alt="image  bloc">
+        </div>
+
         <div id="accordion">
-            <div class="card">
-                <div class="card-header" id="headingOne">
+            <div class="card ">
+                <div class="card-header bg-success" id="headingOne">
                     <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                        <button class="btn btn-link " data-toggle="collapse" data-target="#collapseOne"
                             aria-expanded="true" aria-controls="collapseOne">
                             Salles de bloc
                         </button>
                     </h5>
                 </div>
 
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
                         <div class="listing_block">
                             <ul>
@@ -42,8 +47,8 @@
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-header" id="headingTwo">
+            <div class="card ">
+                <div class="card-header bg-success" id="headingTwo">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
                             aria-expanded="false" aria-controls="collapseTwo">
@@ -66,15 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="intro_bloc_voie">
-            <img src="images/pp_block.jpg" alt="image  bloc">
-            <p class="intro_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel aliquam elit.
-                Aliquam commodo
-                eleifend ligula, at vulputate augue volutpat ut. Nullam tempus augue odio, eu congue ipsum mollis nec.
-                Nunc eu mi in orci rutrum eleifend. Pellentesque vel imperdiet ante, ut venenatis urna. Aenean vehicula
-                sapien a dui ultrices venenatis nec non nibh. Fusce diam nisl, vestibulum in est eu, vestibulum
-                tincidunt lacus. </p>
-        </div>
+
     </section>
 
     <!-- fin test accordion -->
@@ -93,26 +90,25 @@
                 <a class="btn btn-link" type="button" href="https://laennec.mroc.fr/" target="_blank"> Accès au site
                     WEB </a>
                 <br>
-        
+
                 <!--test button toggle-->
                 <p>
                     <a class="btn btn-primary" data-toggle="collapse" href="#collapseLaennec" role="button"
                         aria-expanded="false" aria-controls="collapseLaennec">
-                        Voir sur la carte
+                        <a href="https://www.google.com/maps?ll=45.737219,4.88021&z=12&t=m&hl=fr&gl=FR&mapclient=embed&cid=369121432584175055" target="_blank">Lien Google Maps</a>
                     </a>
                 </p>
                 <div class="collapse" id="collapseLaennec">
                     <div class="card card-body">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18729.447229949015!2d4.846095647389147!3d45.74815899751093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x51f61fcbc29bdcf!2sMRoc%20Laennec!5e0!3m2!1sfr!2sfr!4v1583827272655!5m2!1sfr!2sfr"
-                            width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
                     </div>
                 </div>
-        
+
                 <br>
             </div>
+            <button> <a href="#grimperensalle">Haut de page</a></button>
         </div>
-        
+
         <div class="card" id="part_dieu" style="width: 27rem;">
             <div class="card-header bg-success">MROC LA PART-DIEU
             </div>
@@ -136,14 +132,15 @@
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18729.447229949015!2d4.846095647389147!3d45.74815899751093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4968d396f52a0629!2sMRoc%20Part-Dieu!5e0!3m2!1sfr!2sfr!4v1583827242653!5m2!1sfr!2sfr"
                             width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        
+
                     </div>
                 </div>
-        
+
                 <br>
             </div>
+            <button> <a href="#grimperensalle">Haut de page</a></button>
         </div>
-        
+
         <div class="card" id="villeurbanne" style="width: 27rem;">
             <div class="card-header bg-success">MROC VILLEURBANNE
             </div>
@@ -156,7 +153,7 @@
                 <a class="btn btn-link" type="button" href="https://villeurbanne.mroc.fr/" target="_blank"> Accès au
                     site WEB </a>
                 <br>
-        
+
                 <p>
                     <a class="btn btn-primary" data-toggle="collapse" href="#collapseVilleurbanne" role="button"
                         aria-expanded="false" aria-controls="collapseVilleurbanne">
@@ -165,17 +162,18 @@
                 </p>
                 <div class="collapse" id="collapseVilleurbanne">
                     <div class="card card-body">
-        
+
                     </div>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26483.206408212187!2d4.840467477398354!3d45.75707643198766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2df8110ae6e3304c!2sMRoc%20Villeurbanne!5e0!3m2!1sfr!2sfr!4v1583827313089!5m2!1sfr!2sfr"
                         width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        
+
                     <br>
                 </div>
             </div>
+            <button> <a href="#grimperensalle">Haut de page</a></button>
         </div>
-        
+
         <div class="card" id="verticalart" style="width: 27rem;">
             <div class="card-header bg-success">VERTICAL'ART
             </div>
@@ -192,7 +190,7 @@
                 <a class="btn btn-link" type="button" href="https://lyon.vertical-art.fr/" target="_blank"> Accès au
                     site WEB </a>
                 <br>
-        
+
                 <p>
                     <a class="btn btn-primary" data-toggle="collapse" href="#collapseVerticalArt" role="button"
                         aria-expanded="false" aria-controls="collapseVerticalArt">
@@ -205,13 +203,14 @@
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52982.81764897566!2d4.845778826585149!3d45.73979103850544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6605a7208416a22!2sVertical%E2%80%99Art%20Lyon!5e0!3m2!1sfr!2sfr!4v1583827434386!5m2!1sfr!2sfr"
                             width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
-        
-        
+
+
                     <br>
                 </div>
             </div>
+            <button> <a href="#grimperensalle">Haut de page</a></button>
         </div>
-        
+
         <div class="card" id="climbupconf" style="width: 27rem;">
             <div class="card-header bg-success">CLIMB UP LYON CONFLUENCE
             </div>
@@ -225,7 +224,7 @@
                     Accès au
                     site WEB </a>
                 <br>
-        
+
                 <p>
                     <a class="btn btn-primary" data-toggle="collapse" href="#collapseConfluence" role="button"
                         aria-expanded="false" aria-controls="collapseconfluence">
@@ -238,13 +237,14 @@
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37458.73017354746!2d4.812360806397169!3d45.74840380520991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae27ebf2ec77dbdb!2sClimb%20Up%20Lyon%20Confluence!5e0!3m2!1sfr!2sfr!4v1583827107509!5m2!1sfr!2sfr"
                             width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
-        
-        
+
+
                     <br>
                 </div>
             </div>
+            <button> <a href="#grimperensalle">Haut de page</a></button>
         </div>
-        
+
         <div class="card" id="climbupgerland" style="width: 27rem;">
             <div class="card-header bg-success">CLIMB UP LYON GERLAND
             </div>
@@ -272,12 +272,13 @@
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11137.600122472266!2d4.83558!3d45.7431257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6e56ef9cd617614a!2sClimb%20Up%20Lyon%20Gerland!5e0!3m2!1sfr!2sfr!4v1583944039906!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
                     </div>
-        
+
                     <br>
                 </div>
             </div>
+            <button> <a href="#grimperensalle">Haut de page</a></button>
         </div>
-        
+
         <div class="card" id="holdup" style="width: 27rem;">
             <div class="card-header bg-success">HOLD'UP ESCALADE
             </div>
@@ -307,12 +308,13 @@
                             width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""
                             aria-hidden="false" tabindex="0"></iframe>
                     </div>
-        
+
                     <br>
                 </div>
             </div>
+            <button> <a href="#grimperensalle">Haut de page</a></button>
         </div>
-        
+
         <div class="card" id="arbresle" style="width: 27rem;">
             <div class="card-header bg-success">ESPACE ESCALADE A L'ARBRESLE
             </div>
@@ -341,326 +343,14 @@
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.325902725376!2d4.605732315033976!3d45.82475716733392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f48b46db60cd57%3A0xde5d06a5e075e853!2sEspace%20Escalade!5e0!3m2!1sfr!2sfr!4v1583827560059!5m2!1sfr!2sfr"
                             width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
-        
+
                     <br>
                 </div>
             </div>
-        </div>
-<!-- 
-        <div class="card" id="laennec" style="width: 27rem;">
-            <div class="card-header bg-success">MROC LAENNEC
-            </div>
-            <p id="paralaennec" class="parasalles">Située dans un ancien hangar industriel, MRoc Laennec a ouvert
-                ses portes en mars 2017 et vient
-                agrandir la famille MRoc.</p>
-            <div class="card-body">
-                <p class="card-text">
-                    Horaires : Du Lundi au Dimanche de 09h00 à 00h00
-                </p>
-                <a class="btn btn-link" type="button" href="https://laennec.mroc.fr/" target="_blank"> Accès au site
-                    WEB </a>
-                <br>
-                <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseLaennec" role="button"
-                        aria-expanded="false" aria-controls="collapseLaennec">
-                        Voir sur la carte
-                    </a>
-                </p>
-                <div class="collapse" id="collapseLaennec">
-                    <div class="card card-body">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18729.447229949015!2d4.846095647389147!3d45.74815899751093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x51f61fcbc29bdcf!2sMRoc%20Laennec!5e0!3m2!1sfr!2sfr!4v1583827272655!5m2!1sfr!2sfr"
-                            width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                    </div>
-                </div>
-
-                <br>
-            </div>
+            <button> <a href="#grimperensalle">Haut de page</a></button>
         </div>
 
-        <div class="card" id="part_dieu" style="width: 27rem;">
-            <div class="card-header bg-success">MROC LA PART-DIEU
-            </div>
-            <p id="parapartdieu" class="parasalles">Dans un espace de 1500 m2, MRoc donne une seconde jeunesse à
-                l'ancien squash restaurant Lugdunum, à
-                5min à pied de la gare Part-Dieu</p>
-            <div class="card-body">
-                <p class="card-text">
-                    Horaires : Du Lundi au Dimanche de 08h00 à 00h00
-                </p>
-                <a class="btn btn-link" type="button" href="https://partdieu.mroc.fr/" target="_blank"> Accès au
-                    site WEB </a>
-                <br>
-                <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapsePartDieu" role="button"
-                        aria-expanded="false" aria-controls="collapsePartDieu">
-                        Voir sur la carte
-                    </a>
-                </p>
-                <div class="collapse" id="collapsePartDieu">
-                    <div class="card card-body">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18729.447229949015!2d4.846095647389147!3d45.74815899751093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4968d396f52a0629!2sMRoc%20Part-Dieu!5e0!3m2!1sfr!2sfr!4v1583827242653!5m2!1sfr!2sfr"
-                            width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
-                    </div>
-                </div>
-
-                <br>
-            </div>
-        </div>
-
-        <div class="card" id="villeurbanne" style="width: 27rem;">
-            <div class="card-header bg-success">MROC VILLEURBANNE
-            </div>
-            <p id="paralaennec" class="parasalles">Située entre la Doua et République, proche de Charpennes, dans un
-                local de 1 000 m2 qui servait
-                autrefois à la confection textile, MRoc Villeurbanne est la toute première salle du groupe MRoc.</p>
-            <div class="card-body">
-                <p class="card-text">
-                    Horaires : Du Lundi au Dimanche de 09h00 à 00h00
-                </p>
-                <a class="btn btn-link" type="button" href="https://villeurbanne.mroc.fr/" target="_blank"> Accès au
-                    site WEB </a>
-                <br>
-
-                <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseVilleurbanne" role="button"
-                        aria-expanded="false" aria-controls="collapseVilleurbanne">
-                        Voir sur la carte
-                    </a>
-                </p>
-                <div class="collapse" id="collapseVilleurbanne">
-                    <div class="card card-body">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26483.206408212187!2d4.840467477398354!3d45.75707643198766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2df8110ae6e3304c!2sMRoc%20Villeurbanne!5e0!3m2!1sfr!2sfr!4v1583827313089!5m2!1sfr!2sfr"
-                            width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                    </div>
-                    <br>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" id="verticalart" style="width: 27rem;">
-            <div class="card-header bg-success">VERTICAL'ART
-            </div>
-            <p id="paravertical" class="parasalles">
-                A 5 mn de Lyon un bâtiment de 2000m² dont 1000 m² grimpables aux blocs variés et accessibles à tous.
-            </p>
-            <div class="card-body">
-                <p class="card-text">
-                    Horaires : Du Lundi au Vendredi de 11h00 à 23h00. Week-ends et jours fériés de 9h00 à 21h00.
-                </p>
-                <a class="btn btn-link" type="button" href="https://lyon.vertical-art.fr/" target="_blank"> Accès au
-                    site WEB </a>
-                <br>
-                <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseVilleurbanne" role="button"
-                        aria-expanded="false" aria-controls="collapseVilleurbanne">
-                        Voir sur la carte
-                    </a>
-                </p>
-                <div class="collapse" id="collapseVilleurbanne">
-                    <div class="card card-body">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52982.81764897566!2d4.845778826585149!3d45.73979103850544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6605a7208416a22!2sVertical%E2%80%99Art%20Lyon!5e0!3m2!1sfr!2sfr!4v1583827434386!5m2!1sfr!2sfr"
-                            width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                    </div>
-                    <br>
-                </div>
-
-                <br>
-            </div>
-        </div>
-
-
-        <div class="card" id="climbupgerland" style="width: 27rem;">
-            <div class="card-header bg-success">CLIMB UP LYON GERLAND</div>
-            <p id="paraclimbgerland" class="parasalles">Voies, blocs, espace entrainement, sauna.
-                Une des plus grandes salles d'escalade de France au cœur de
-                Lyon.
-
-                Grimpeur débutant ou confirmé, en cours ou en accès libre, enfant ou adulte, tous
-                pratiquent dans ce
-                même lieu de vie !</p>
-            <div class="card-body">
-                <p class="card-text">
-                    Horaires : Du Lundi au Dimanche de 8h00 à 00h00
-                </p>
-                <a class="btn btn-link" type="button" href="https://lyon-gerland.climb-up.fr/" target="_blank">
-                    Accès au
-                    site WEB </a>
-                <br>
-                <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseGerland" role="button"
-                        aria-expanded="false" aria-controls="collapseGerland">
-                        Voir sur la carte
-                    </a>
-                </p>
-                <div class="collapse" id="collapseGerland">
-                    <div class="card card-body">
-                <br>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="card" id="arbresle" style="width: 27rem;">
-            <div class="card-header bg-success">ESPACE ESALADE A L'ARBRESLE</div>
-            <p class="parasalles"> Salle de l'Arbresle</p>
-            <div class="card-body">
-                <p class="card-text">
-                    Horaires : Mardi & Jeudi 12:00-22:00 / Mercredi & Vendredi 14:00-22:00 /
-                    Samedi 09:00-18:00
-                </p>
-                <a class="btn btn-link" type="button" href="http://www.espace-escalade.com " target="_blank"> Accès
-                    au
-                    site WEB </a>
-                <br>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.325902725376!2d4.605732315033976!3d45.82475716733392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f48b46db60cd57%3A0xde5d06a5e075e853!2sEspace%20Escalade!5e0!3m2!1sfr!2sfr!4v1583827560059!5m2!1sfr!2sfr"
-                    width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                <br>
-            </div>
-        </div>
-
-        <div class="card" id="holdup" style="width: 27rem;">
-            <div class="card-header bg-success">HOLD'UP ESCALADE</div>
-            <p class="parasalles">
-                Située à Lyon Vaise et proche du métro Valmy, l’équipe Hold’Up vous accueille 7
-                jours sur 7 pour pratiquer librement l’activité escalade de bloc ou pan dans un
-                espace convivial.Nous vous accueillons tous les jours, à pieds, à vélo ou en voiture
-                (parking privé).
-            </p>
-            <div class="card-body">
-                <p class="card-text">
-                    Horaires : Du Lundi au Vendredi de 11h00 à 22h00. Week-ends et jours fériés de
-                    10h00 à 19h00.
-                </p>
-                <a class="btn btn-link" type="button" href="http://holdup-escalade.fr/" target="_blank"> Accès au
-                    site WEB </a>
-                <br>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11131.687265063858!2d4.797434!3d45.7727571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9264ffcdfb34f54!2sHOLD&#39;UP%20ESCALADE!5e0!3m2!1sfr!2sfr!4v1583897589071!5m2!1sfr!2sfr"
-                    width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
-                <br>
-            </div>
-        </div>
-
-        <div class="card" id="climbupconf" style="width: 27rem;">
-            <div class="card-header bg-success">CLIMB UP LYON CONFLUENCE</div>
-            <p class="parasalles"> CLIMB UP LYON CONFLUENCE </p>
-            <div class="card-body">
-                <p class="card-text">Horaires : Du Lundi au Dimanche de 10h00 à 23h30</p>
-                <a class="btn btn-link" type="button" href="https://lyon-gerland.climb-up.fr/" target=" _blank">
-                    Accès au
-                    site WEB </a>
-                <br>
-
-                <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseConfluence" role="button"
-                        aria-expanded="false" aria-controls="collapseconfluence">
-                        Voir sur la carte
-                    </a>
-                </p>
-                <div class="collapse" id="collapseConfluence">
-                    <div class="card card-body">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37458.73017354746!2d4.812360806397169!3d45.74840380520991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae27ebf2ec77dbdb!2sClimb%20Up%20Lyon%20Confluence!5e0!3m2!1sfr!2sfr!4v1583827107509!5m2!1sfr!2sfr"
-                            width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                    </div>
-                    <br>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" id="climbupgerland" style="width: 27rem;">
-            <div class="card-header bg-success">CLIMB UP LYON GERLAND</div>
-            <p class="parasalles"> CLIMB UP LYON GERLAND </p>
-            <div class="card-body">
-                <p class="card-text">Horaires : Du Lundi au Dimanche de 8h00 à 00h00</p>
-                <a class="btn btn-link" type="button" href="https://lyon-gerland.climb-up.fr/" target="_blank">
-                    Accès au
-                    site WEB </a>
-                <br>
-                <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseGerland" role="button"
-                        aria-expanded="false" aria-controls="collapseGerland">
-                        Voir sur la carte
-                    </a>
-                </p>
-                <div class="collapse" id="collapseGerland">
-                    <div class="card card-body">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37458.73017354746!2d4.812360806397169!3d45.74840380520991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xae27ebf2ec77dbdb!2sClimb%20Up%20Lyon%20Confluence!5e0!3m2!1sfr!2sfr!4v1583827107509!5m2!1sfr!2sfr"
-                            width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                    </div>
-                    <br>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" id="holdup" style="width: 27rem;">
-            <div class="card-header bg-success">HOLD'UP ESCALADE</div>
-            <p class="parasalles"> HOLD'UP ESCALADE </p>
-            <div class="card-body">
-                <p class="card-text">
-                    Horaires : Du Lundi au Vendredi de 11h00 à 22h00. Week-ends et jours fériés de 10h00
-                    à 19h00.
-                </p>
-                <a class="btn btn-link" type="button" href="http://holdup-escalade.fr/" target="_blank">
-                    Accès au
-                    site WEB </a>
-                <br>
-                <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseHoldUp" role="button"
-                        aria-expanded="false" aria-controls="collapseHoldUp">
-                        Voir sur la carte
-                    </a>
-                </p>
-                <div class="collapse" id="collapseHoldUp">
-                    <div class="card card-body">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11131.687265063858!2d4.797434!3d45.7727571!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9264ffcdfb34f54!2sHOLD&#39;UP%20ESCALADE!5e0!3m2!1sfr!2sfr!4v1583897589071!5m2!1sfr!2sfr"
-                            width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""
-                            aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                    <br>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" id="arbresle" style="width: 27rem;">
-            <div class="card-header bg-success">ESPACE ESCALADE A L'ARBRESLE</div>
-            <p class="parasalles"> Escapce escalade à l'Arbresle </p>
-            <div class="card-body">
-                <p class="card-text">
-                    Horaires : Mardi & Jeudi 12:00-22:00 / Mercredi & Vendredi 14:00-22:00 /
-                    Samedi 09:00-18:00
-                </p>
-                <a class="btn btn-link" type="button" href="http://www.espace-escalade.com " target="_blank"> Accès
-                    au
-                    site WEB </a>
-                <br>
-                <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseArbresle" role="button"
-                        aria-expanded="false" aria-controls="collapseArbresle">
-                        Voir sur la carte
-                    </a>
-                </p>
-                <div class="collapse" id="collapseArbresle">
-                    <div class="card card-body">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.325902725376!2d4.605732315033976!3d45.82475716733392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f48b46db60cd57%3A0xde5d06a5e075e853!2sEspace%20Escalade!5e0!3m2!1sfr!2sfr!4v1583827560059!5m2!1sfr!2sfr"
-                            width="400" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                    </div>
-                    <br>
-                </div>
-            </div>
-        </div>
-    -->
-    </article> 
+    </article>
 
     <footer>
 
