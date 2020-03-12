@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+header{
+    font-family: 'Fjalla One', sans-serif;
+}
+
 #titrepage{
     width: 100%;
     height: auto;
@@ -146,23 +150,30 @@ main h3, main h2{
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Style pour titres toutes pages */
 
 h2 {
     color : white;
-    background-color: #292b2c;
-    font-family: "Arial", sans-serif;
+    background-color: #B88A5C;
+    font-family: "Segoe UI";
     text-transform: uppercase;
     padding: 10px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 8vw;
+    letter-spacing: 0.1em;
+
 }
 
 h3 {
     color : #292b2c;
     padding : 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 /* CSS spécifique page grimperEnsemble.html */
@@ -349,13 +360,44 @@ footer {
 /* 
  Début CSS Pascal */
 
-.intro_bloc_voie {
-    display: flex;
+#accordion {
+    width: 80%;
+    margin : auto;
+    min-width: 20%;
 }
 
-.intro_para {
-    width: 50%;
+/* 
+.btn {
+    color: white;
 }
+ */
+
+
+.intro_bloc_voie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    }
+
+
+.intro_para {
+    text-align: center;
+    width: 60%;
+    padding:5px 10px;
+    border:2px solid black;
+    border-radius: 10px;
+
+}
+
+.intro_bloc_voie img {
+    margin: 20px;
+    width: 60%;    
+    height: auto;
+    border:1.5px solid #5cb85c;
+    border-radius: 10px;
+}
+
 
 .cardSalles  {
     display: flex;
@@ -368,7 +410,9 @@ footer {
 
 .cardSalles .card {
     margin: 10px;
-    height: 600px;
+
+    height: 500px;
+    
 }
 
 .voie  {
@@ -383,8 +427,7 @@ footer {
 
 .paraesca {
     margin : 10px;
-    border: 1px solid red;
-    height: 250px;
+    height: 150px;
     padding: 10px;
 }
 
@@ -393,7 +436,6 @@ footer {
 iframe {
     text-align: center;
     justify-content: center;
-    border: 2px solid red;
     width: 100%;
     height: 100%;
 }
@@ -409,15 +451,25 @@ iframe {
     border : 1px solid red;
 }
 
-.intro_bloc_voie {
-    display: flex;
-}
+/* Fin CSS Pascal */
 
 .liens-footer {
     display: flex;
     flex-direction: column;
     margin: 25px auto;
     padding-top: 25px;
+}
+
+.home a {
+    text-decoration: none;
+    color:#5cb85c;
+    float: left; 
+}
+
+.hautDePage a {
+    text-decoration: none;
+    color:#5cb85c;
+    float: right;
 }
 
 footer a {
@@ -451,6 +503,7 @@ footer img {
     padding: 5px;
     margin: 5px;
 }
+
 
 /* fin css justine */
 
@@ -520,6 +573,14 @@ footer img {
     margin: 1px;
     }
 
+    .home a:hover {
+        text-decoration: none;
+        color:#292b2c;
+    }
+   .hautDePage a:hover {
+        text-decoration: none;
+        color:#292b2c;
+    }
     footer a:hover {
         text-decoration: none;
         color:#5cb85c;
