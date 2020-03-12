@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+}
+
+header{
+    font-family: 'Fjalla One', sans-serif;
 }
 
 #titrepage{
@@ -144,30 +146,34 @@ main h3, main h2{
 
 
 /*   */
-html {
-    height: 100%;
-    width : 100%;
-}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Style pour titres toutes pages */
 
 h2 {
     color : white;
-    background-color: #292b2c;
-    font-family: "Arial", sans-serif;
+    background-color: #B88A5C;
+    font-family: "Segoe UI";
     text-transform: uppercase;
     padding: 10px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 8vw;
+    letter-spacing: 0.1em;
+
 }
 
 h3 {
     color : #292b2c;
     padding : 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 /* CSS spécifique page grimperEnsemble.html */
@@ -300,14 +306,14 @@ h3 {
 
     /* début css amélie */
 
-.cardHomePage{
+.cardHomePage, .sectionCards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.cardHomePage div {
+.cardHomePage div, .sectionCards div {
     margin: 10px;
 
 }
@@ -425,13 +431,13 @@ iframe {
 .home a {
     text-decoration: none;
     color:#5cb85c;
-    margin-right: auto; 
+    float: left; 
 }
 
 .hautDePage a {
     text-decoration: none;
     color:#5cb85c;
-    margin-left: auto;
+    float: right;
 }
 
 footer a {
