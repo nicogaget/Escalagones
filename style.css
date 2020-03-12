@@ -6,9 +6,10 @@
 header{
     font-family: 'Fjalla One', sans-serif;
 }
-.indooras .outdoor{
+.indooras, .outdoor{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #titrepage{
@@ -32,12 +33,7 @@ header{
     font-weight: bold;   
 }
 
-
-.indoor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* BODY CARTES MATERIEL*/
 
 .seprate-line {
 	width: 20px; height: 3px; background: white;
@@ -45,9 +41,6 @@ header{
 .g-card {
   margin: auto;
   top: 100px;
-  float: left;
-  margin-left: 6%;
-  position: relative;
   width: 320px;
   min-height: 400px;
   overflow: hidden;
@@ -60,8 +53,11 @@ header{
   color: #fff;
   display: flex;
   flex-direction: column;
-  
 }
+
+/*************************/
+
+/*IMAGES CARTES MATERIEL*/
 
 .cardprdt0 img{
     width: 350px;
@@ -115,15 +111,12 @@ header{
     margin-bottom: 30px;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+/************************/
 
-}
 main h3, main h2{
     text-align: center;
     margin-top: 20px;
+    text-transform: uppercase;
 }
 
 
