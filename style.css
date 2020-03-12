@@ -1,3 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#titrepage{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#titrepage div img{
+    width: 100%;
+    height: auto;
+}
+
+.Mattitre h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap; 
+    color: #fff;
+    font-weight: bold;   
+}
+
+.Matsst{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 50px;
+}
+
+.Matsst img{
+    height: 200px;
+    margin-left: -100px;
+}
+
+.Matess{
+    position: absolute;
+    background: #0396FF;
+    height: 40px;
+    padding: 0px 45px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 200;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: 100px;
+    margin-left: 45px;
+    box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+    opacity: 0.7;
+}
+
+.Matess h3{
+    color: #fff;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.navin{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.indoor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seprate-line {
+	width: 20px; height: 3px; background: white;
+}
+.g-card {
+  margin: auto;
+  top: 100px;
+  float: left;
+  margin-left: 6%;
+  position: relative;
+  width: 320px;
+  min-height: 400px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #02aab0, #00cdac);
+  padding: 60px 30px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #fff;
+  display: flex;
+  
+}
+
+.cardprdt0 img{
+    width: 350px;
+    height: auto;
+    margin-top: -120px;
+    margin-left: -60px;
+}
+
+
+.cardprdt1 img{
+    width: 150px;
+    height: auto;
+    margin-top: -30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.cardprdt2 img{
+    width: 150px;
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.cardprdt3 img{
+    height: 150px;
+    margin-left: 40px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+main h3, main h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
 /*   */
 html {
     height: 100%;
