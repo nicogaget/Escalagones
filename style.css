@@ -326,6 +326,29 @@ h3 {
     padding : 5px 10px;
 }
 
+/* CSS Amélie pour haut de page intérieur*/
+
+.banniere_bloc{
+    background-image: url(Images/pp_voie4.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro_para{
+    margin: 20px;
+    text-align: center;
+}
+
+.liste_salles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Fin css Amélie pour haut de page intérieur */
+
 /* fin css amélie */
 
 /* début css justine */
@@ -359,7 +382,7 @@ footer {
  */
 
 
-.intro_bloc_voie {
+/*.intro_bloc_voie {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -374,15 +397,7 @@ footer {
     border:2px solid black;
     border-radius: 10px;
 
-}
-
-.intro_bloc_voie img {
-    margin: 20px;
-    width: 60%;    
-    height: auto;
-    border:1.5px solid #5cb85c;
-    border-radius: 10px;
-}
+}*/
 
 
 .cardSalles  {
@@ -426,9 +441,9 @@ iframe {
     height: 100%;
 }
 
-.listing_block {
+/*.listing_block {
     display: flex;
-}
+}*/
 
 .ul_block {
     display: flex;
