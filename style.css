@@ -142,10 +142,7 @@ main h3, main h2{
 
 
 /*   */
-html {
-    height: 100%;
-    width : 100%;
-}
+
 body {
     margin: 0;
     padding: 0;
@@ -298,14 +295,14 @@ h3 {
 
     /* début css amélie */
 
-.cardHomePage{
+.cardHomePage, .sectionCards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.cardHomePage div {
+.cardHomePage div, .sectionCards div {
     margin: 10px;
 
 }
