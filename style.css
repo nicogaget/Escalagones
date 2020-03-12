@@ -357,6 +357,25 @@ h3 {
 
 /* Fin css Amélie pour haut de page intérieur */
 
+/*Début Css Amélie pour tableau matériel*/
+
+.choixMateriel{
+    margin-top: 150px;
+}
+
+table{
+    margin-top: 50px;
+}
+
+table.table-hover{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
 /* fin css amélie */
 
 /* début css justine */
