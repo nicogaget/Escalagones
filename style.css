@@ -355,11 +355,11 @@ footer {
     min-width: 20%;
 }
 
-
+/* 
 .btn {
     color: white;
 }
-
+ */
 
 
 .intro_bloc_voie {
@@ -399,7 +399,9 @@ footer {
 
 .cardSalles .card {
     margin: 10px;
-    height: 300px;
+
+    height: 500px;
+    
 }
 
 .voie  {
@@ -414,7 +416,7 @@ footer {
 
 .paraesca {
     margin : 10px;
-    height: 250px;
+    height: 150px;
     padding: 10px;
 }
 
