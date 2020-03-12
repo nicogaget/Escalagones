@@ -290,7 +290,10 @@ h3 {
     text-decoration: none; 
     background-color: aliceblue;  
 }
-
+.card-img-top{
+    width: 430px;
+    height: 290px;
+}
 /* fin css nico */
 
     /* début css amélie */
@@ -358,7 +361,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 20px;
 }
