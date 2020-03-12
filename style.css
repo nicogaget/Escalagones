@@ -200,9 +200,15 @@ h3 {
     margin : 10px auto;
 }
 
-#formButton {
+.form_buttons {
+    display: flex;
+    flex-direction: row;
     align-self: flex-end;
     margin-right: 10%;
+}
+
+#formButton {
+    margin-left: 10px;
 }
 
 .creditPhoto {
@@ -457,11 +463,6 @@ iframe {
     padding-top: 25px;
 }
 
-.home a {
-    text-decoration: none;
-    color:#5cb85c;
-    float: left; 
-}
 
 .hautDePage a {
     text-decoration: none;
