@@ -161,6 +161,7 @@ h3 {
     color : #292b2c;
     padding : 10px;
     font-family: 'Fjalla One', sans-serif;
+    text-align: center;
 }
 
 /* CSS spécifique page grimperEnsemble.html */
@@ -196,7 +197,7 @@ h3 {
     margin-right: 10%;
 }
 
-#formButton {
+#formButton, #formButton2 {
     margin-left: 10px;
 }
 
