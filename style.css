@@ -422,6 +422,18 @@ iframe {
     padding-top: 25px;
 }
 
+.home a {
+    text-decoration: none;
+    color:#5cb85c;
+    margin-right: auto; 
+}
+
+.hautDePage a {
+    text-decoration: none;
+    color:#5cb85c;
+    margin-left: auto;
+}
+
 footer a {
     text-align: center;
     padding: 5px;
@@ -453,6 +465,7 @@ footer img {
     padding: 5px;
     margin: 5px;
 }
+
 
 /* fin css justine */
 
@@ -522,6 +535,14 @@ footer img {
     margin: 1px;
     }
 
+    .home a:hover {
+        text-decoration: none;
+        color:#292b2c;
+    }
+   .hautDePage a:hover {
+        text-decoration: none;
+        color:#292b2c;
+    }
     footer a:hover {
         text-decoration: none;
         color:#5cb85c;
