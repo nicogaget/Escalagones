@@ -60,10 +60,11 @@ header{
 /*IMAGES CARTES MATERIEL*/
 
 .cardprdt0 img{
-    width: 350px;
+    width: 300px;
     height: auto;
-    margin-top: -120px;
+    margin-top: -110px;
     margin-left: -60px;
+    margin-bottom: 10px;
 }
 
 
@@ -83,8 +84,8 @@ header{
 }
 
 .cardprdt3 img{
-    height: 150px;
-    margin-left: 40px;
+    width: 150px;
+    margin-left: 60px;
     margin-top: -30px;
     margin-bottom: 30px;
 
@@ -116,7 +117,6 @@ header{
 main h3, main h2{
     text-align: center;
     margin-top: 20px;
-    text-transform: uppercase;
 }
 
 
