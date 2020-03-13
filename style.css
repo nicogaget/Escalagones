@@ -488,18 +488,18 @@ footer {
     text-align: center;
 }
 
-.lien_google_mroc P {
+.lien_google_mroc p {
     padding-left: 30px;
     text-align: center;
 }
 
 .lien_google_climbup a {
     /* padding: 50px; */
-    text-align: center;
+
 }
 
-.lien_google_climbup P {
-    padding-left: 30px;
+.lien_google_climbup  {
+    margin: auto;
     text-align: center;
 }
 
