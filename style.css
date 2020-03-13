@@ -26,8 +26,6 @@ header{
     color: #5cb85c
 }
 
-
-
 .indooras {
     display: flex;
     flex-wrap: wrap;
@@ -317,21 +315,7 @@ h3 {
     height: 260px;
 }
 
-.link-ext{
-    display: flex;
-    justify-content: space-around;
-    background-color: #5cb85c;
-    padding: 10px 0;
-    
-}
-.card-body.link-ext a{
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-
-
-}
-/* fin css nico */
+/*fin css nico */
 
     /* début css amélie */
 
@@ -499,7 +483,6 @@ footer {
 
 
 .lien_google{
-    border:2px solid #f7f7f7;
     text-align: center;
     margin : 10px;
     padding: 10px;
@@ -626,14 +609,21 @@ footer img {
     padding: 5px;
     margin: 5px;
 }
-.link-ext a{
+
+
+/* fin css justine */
+.link-ext{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5cb85c;
+    padding: 10px 0;
+    
+}
+.card-body .link-ext a{
     color: white;
     font-weight: bold;
     font-size: 20px;
 }
-
-
-/* fin css justine */
 
 
 @media only screen and (min-width:961px) {
@@ -651,6 +641,7 @@ footer img {
     opacity: 1;
     z-index:0;
     transform: translateX(0%);
+
     transition: transform 1s ease-in-out;
     --webkit-transition:transition: transform 1s ease-in-out;
 
