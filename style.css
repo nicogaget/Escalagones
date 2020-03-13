@@ -7,14 +7,14 @@ header{
     font-family: 'Fjalla One', sans-serif;
 }
 
-.texteAccueil, .texteInterieur {
+.texteAccueil, .texteInterieur, .texteExterieur {
     text-align: center;
     padding: 20px;
     width: 80%;
     margin: 50px auto;
 }
 
-.texteAccueil p, .texteInterieur p {
+.texteAccueil p, .texteInterieur p, .texteExterieur p{
     display: none;
 }
 
@@ -683,7 +683,7 @@ footer img {
     color: #5cb85c;
     }
 
-    .texteAccueil p, .texteInterieur p {
+    .texteAccueil p, .texteInterieur p, .texteExterieur p {
         display: block;
     }
     
