@@ -7,14 +7,14 @@ header{
     font-family: 'Fjalla One', sans-serif;
 }
 
-.texteAccueil, .texteInterieur {
+.texteAccueil, .texteInterieur, .texteExterieur {
     text-align: center;
     padding: 20px;
     width: 80%;
     margin: 50px auto;
 }
 
-.texteAccueil p, .texteInterieur p {
+.texteAccueil p, .texteInterieur p, .texteExterieur p{
     display: none;
 }
 
@@ -625,6 +625,11 @@ footer img {
     padding: 5px;
     margin: 5px;
 }
+.link-ext a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
 
 
 /* fin css justine */
@@ -645,7 +650,6 @@ footer img {
     opacity: 1;
     z-index:0;
     transform: translateX(0%);
-
     transition: transform 1s ease-in-out;
     --webkit-transition:transition: transform 1s ease-in-out;
 
@@ -679,7 +683,7 @@ footer img {
     color: #5cb85c;
     }
 
-    .texteAccueil p, .texteInterieur p {
+    .texteAccueil p, .texteInterieur p, .texteExterieur p {
         display: block;
     }
     
