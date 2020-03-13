@@ -161,6 +161,7 @@ h3 {
     color : #292b2c;
     padding : 10px;
     font-family: 'Fjalla One', sans-serif;
+    text-align: center;
 }
 
 /* CSS spécifique page grimperEnsemble.html */
@@ -196,7 +197,7 @@ h3 {
     margin-right: 10%;
 }
 
-#formButton {
+#formButton, #formButton2 {
     margin-left: 10px;
 }
 
@@ -268,7 +269,7 @@ h3 {
 }
 
 .nav-bar-escalade ul li {
-    flex: 1;
+    
     margin: 10px 0;
     padding: 10px;
     list-style-type: none;
@@ -296,9 +297,24 @@ h3 {
     text-decoration: none; 
     background-color: aliceblue;  
 }
-.card-img-top{
+.card-img-ext{
     width: 430px;
-    height: 290px;
+    height: 260px;
+}
+
+.link-ext{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5cb85c;
+    padding: 10px 0;
+    
+}
+.link-ext a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+
 }
 /* fin css nico */
 
@@ -356,6 +372,25 @@ h3 {
  }
 
 /* Fin css Amélie pour haut de page intérieur */
+
+/*Début Css Amélie pour tableau matériel*/
+
+.choixMateriel{
+    margin-top: 150px;
+}
+
+table{
+    margin-top: 50px;
+}
+
+table.table-hover{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
 
 /* fin css amélie */
 
