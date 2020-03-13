@@ -470,8 +470,7 @@ footer {
 
 
 .liens_web {
-
-    border:1px solid green;
+    border:1px solid #f7f7f7;
     margin : 10px;
     padding: 10px;
     text-align: center;
@@ -479,7 +478,7 @@ footer {
 
 
 .lien_google{
-    border:2px solid blue;
+    border:2px solid #f7f7f7;
     text-align: center;
     margin : 10px;
     padding: 10px;
@@ -490,19 +489,23 @@ footer {
     text-align: center;
 }
 
-.lien_google_mroc P {
+.lien_google_mroc p {
     padding-left: 30px;
     text-align: center;
 }
 
 .lien_google_climbup a {
     /* padding: 50px; */
+
+}
+
+.lien_google_climbup  {
+    margin: auto;
     text-align: center;
 }
 
-.lien_google_climbup P {
-    padding-left: 30px;
-    text-align: center;
+.li_menu-esc {
+    list-style-type: none;
 }
 
 #mroc{
@@ -531,7 +534,7 @@ footer {
     margin : 10px;
     height: 150px;
     padding: 10px;
-    border:2px solid red;
+    border:2px solid #f7f7f7 
 }
 
 
