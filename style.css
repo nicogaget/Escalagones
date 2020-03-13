@@ -7,6 +7,26 @@ header{
     font-family: 'Fjalla One', sans-serif;
 }
 
+.texteAccueil, .texteInterieur {
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.texteAccueil p, .texteInterieur p {
+    display: none;
+}
+
+.liste_salles {
+    margin-bottom: 50px;
+}
+
+.liste_salles a {
+    color: #5cb85c
+}
+
+
 .indooras {
     display: flex;
     flex-wrap: wrap;
@@ -455,6 +475,11 @@ footer {
     
 }
 
+.cardSalles a {
+    color: #5cb85c
+}
+
+
 .voie  {
     display: flex;
     flex-direction: row;
@@ -651,10 +676,23 @@ footer img {
     .nav-bar-escalade ul li :hover,
     .nav-bar-escalade ul li a:hover{
     background-color: aliceblue;
-    color: green;
+    color: #5cb85c;
     }
 
+    .texteAccueil p, .texteInterieur p {
+        display: block;
+    }
+    
+    .liste_salles {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        padding: 25px;
+        margin: 50px auto;
+        border: 1px solid #292b2c;
+    }
 
+  
 
     /* fin responsive nico */
 
