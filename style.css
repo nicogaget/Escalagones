@@ -7,7 +7,7 @@ header{
     font-family: 'Fjalla One', sans-serif;
 }
 
-.texteAccueil, .texteInterieur, .texteExterieur {
+.texteAccueil, .texteInterieur, .texteExterieur, .titresEnsemble, .sstitre {
     text-align: center;
     padding: 20px;
     width: 80%;
@@ -25,6 +25,7 @@ header{
 .liste_salles a {
     color: #5cb85c
 }
+
 
 
 .indooras {
