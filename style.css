@@ -323,12 +323,6 @@ h3 {
     padding: 10px 0;
     
 }
-.link-ext a{
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-
-
 }
 /* fin css nico */
 
@@ -625,6 +619,11 @@ footer img {
     padding: 5px;
     margin: 5px;
 }
+.link-ext a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
 
 
 /* fin css justine */
@@ -645,7 +644,6 @@ footer img {
     opacity: 1;
     z-index:0;
     transform: translateX(0%);
-
     transition: transform 1s ease-in-out;
     --webkit-transition:transition: transform 1s ease-in-out;
 
