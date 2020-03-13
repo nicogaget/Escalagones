@@ -323,7 +323,7 @@ h3 {
     padding: 10px 0;
     
 }
-.link-ext a{
+.card-body.link-ext a{
     color: white;
     font-weight: bold;
     font-size: 20px;
