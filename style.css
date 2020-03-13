@@ -27,9 +27,10 @@ header{
 }
 
 
-.indooras .outdoor{
+.indooras {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #titrepage{
@@ -53,12 +54,7 @@ header{
     font-weight: bold;   
 }
 
-
-.indoor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* BODY CARTES MATERIEL*/
 
 .seprate-line {
 	width: 20px; height: 3px; background: white;
@@ -66,9 +62,6 @@ header{
 .g-card {
   margin: auto;
   top: 100px;
-  float: left;
-  margin-left: 6%;
-  position: relative;
   width: 320px;
   min-height: 400px;
   overflow: hidden;
@@ -81,14 +74,18 @@ header{
   color: #fff;
   display: flex;
   flex-direction: column;
-  
 }
 
+/*************************/
+
+/*IMAGES CARTES MATERIEL*/
+
 .cardprdt0 img{
-    width: 350px;
+    width: 300px;
     height: auto;
-    margin-top: -120px;
+    margin-top: -110px;
     margin-left: -60px;
+    margin-bottom: 10px;
 }
 
 
@@ -108,8 +105,8 @@ header{
 }
 
 .cardprdt3 img{
-    height: 150px;
-    margin-left: 40px;
+    width: 150px;
+    margin-left: 60px;
     margin-top: -30px;
     margin-bottom: 30px;
 
@@ -136,12 +133,8 @@ header{
     margin-bottom: 30px;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+/************************/
 
-}
 main h3, main h2{
     text-align: center;
     margin-top: 20px;
@@ -330,7 +323,7 @@ h3 {
     padding: 10px 0;
     
 }
-.link-ext a{
+.card-body.link-ext a{
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -404,11 +397,13 @@ table{
     margin-top: 50px;
 }
 
-table.table-hover{
+.table-responsive { 
     width: 80%;
     margin: auto;
 }
-
+thead {
+    align-items: center;
+}
 
 
 
@@ -482,8 +477,8 @@ footer {
 
 .cardSalles a {
     color: #5cb85c
-    }
 }
+
 
 .voie  {
     display: flex;
@@ -519,10 +514,10 @@ footer {
     text-align: center;
 }
 
-.lien_google_climbup a {
-    /* padding: 50px; */
+/* .lien_google_climbup a {
+    padding: 50px; 
 
-}
+} */
 
 .lien_google_climbup  {
     margin: auto;
