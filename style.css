@@ -323,6 +323,12 @@ h3 {
     padding: 10px 0;
     
 }
+.card-body.link-ext a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+
 }
 /* fin css nico */
 
