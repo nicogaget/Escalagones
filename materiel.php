@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-
-  <meta charset="utf-8">
-  <title>ESCALAGONES</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-  <header>
-    <div class="btn-navigation">
-      <div class="barre"></div>
-      <div class="barre"></div>
-      <div class="barre"></div>
-      <div class="barre"></div>
-    </div>
-
-    <div class="body-header">
-      <nav class="nav-bar-escalade">
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="interieur.html">Intérieur</a></li>
-          <li><a href="exterieur.html">Extérieur</a></li>
-          <li><a href="grimperEnsemble.html">Grimper ensemble</a></li>
-          <li><a href="materiel.html">Matériel</a></li>
-          <li><a href="grimperEnsemble.html#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a></li>
-
-
-        </ul>
-      </nav>
-
-    </div>
-
-  </header>
+<?php include "_header.php"?>
 
   <section id="titrepage">
     <div>
@@ -194,7 +151,7 @@
   <footer>
     <div class="liens-footer">
 
-      <a href="index.html" title="permet de retourner sur le haut de la page d'accueil">Retour à l'accueil</a>
+      <a href="index.php" title="permet de retourner sur le haut de la page d'accueil">Retour à l'accueil</a>
       <a href="grimperEnsemble.html#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a>
       <a href="#" data-toggle="modal" data-target="#exampleModalCenter"
         title="permet de voir les mentions légales du site">Mentions légales</a>

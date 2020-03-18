@@ -26,12 +26,12 @@
         <div class="body-header">
             <nav class="nav-bar-escalade">
                 <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="interieur.html">Intérieur</a></li>
-                    <li><a href="exterieur.html">Extérieur</a></li>
-                    <li><a href="grimperEnsemble.html">Grimper ensemble</a></li>
-                    <li><a href="materiel.html">Matériel</a></li>
-                    <li><a href="grimperEnsemble.html#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="interieur.php">Intérieur</a></li>
+                    <li><a href="exterieur.php">Extérieur</a></li>
+                    <li><a href="grimperEnsemble.php">Grimper ensemble</a></li>
+                    <li><a href="materiel.php">Matériel</a></li>
+                    <li><a href="grimperEnsemble.php#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a></li>
                 </ul>
             </nav>
 

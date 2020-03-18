@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <title>Grimper en salle</title>
-</head>
-
-<body>
-    <header>
-        <div class="btn-navigation">
-            <div class="barre"></div>
-            <div class="barre"></div>
-            <div class="barre"></div>
-            <div class="barre"></div>
-        </div>
-
-        <div class="body-header">
-            <nav class="nav-bar-escalade">
-                <ul >
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="interieur.html">Intérieur</a></li>
-                    <li><a href="exterieur.html">Extérieur</a></li>
-                    <li><a href="grimperEnsemble.html">Grimper ensemble</a></li>
-                    <li><a href="materiel.html">Matériel</a></li>
-                    <li><a href="grimperEnsemble.html#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a></li>
-
-
-                </ul>
-            </nav>
-
-        </div>
-
-    </header>
+<?php include "_header.php"?>
 
 
     <h2 id="grimperensalle"> Grimper en intérieur </h2>
@@ -194,7 +155,7 @@
     <footer>
         <div class="liens-footer">
 
-            <a href="index.html" title="permet de retourner sur le haut de la page d'accueil">Retour à l'accueil</a>
+            <a href="index.php" title="permet de retourner sur le haut de la page d'accueil">Retour à l'accueil</a>
             <a href="grimperEnsemble.html#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a>
             <a href="#" data-toggle="modal" data-target="#exampleModalCenter"
                 title="permet de voir les mentions légales du site">Mentions légales</a>

@@ -1,7 +1,7 @@
 <footer>
     <div class="liens-footer">
 
-        <a href="index.html" title="permet de retourner sur le haut de la page d'accueil">Retour à l'accueil</a>
+        <a href="index.php" title="permet de retourner sur le haut de la page d'accueil">Retour à l'accueil</a>
         <a href="grimperEnsemble.html#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a>
         <a href="#" data-toggle="modal" data-target="#exampleModalCenter"
            title="permet de voir les mentions légales du site">Mentions légales</a>
