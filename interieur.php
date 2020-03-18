@@ -15,13 +15,13 @@
     </div>
 
     <div class="liste_salles">
-        <div class="listing_block">
+
+        <div >
 
             <h3>Salles de bloc</h3>
             <ul>
-                <?php
-                foreach ($roomsBloc as $room) {?>
-                        <li class="li_menu-esc\"><a href=#mroc"><?php echo $room[name] ?> </a></li>
+                <?php foreach ($roomsBloc as $room) {?>
+                    <li class="li_menu-esc\"><a href=#mroc"><?php echo $room[name] ?> </a></li>
                 <?php } ?>
             </ul>
 
@@ -58,8 +58,8 @@
                 <a href="<?php echo $room[webSite]?> " target="_blank"><?php  echo '<br>'.$room[webSiteName]?></a>
             </div>
             <div class="lien_google">
-                <p>Lien Google Maps : </p>
-                <a href="<?php echo $room[googleMap]?>" target="_blank"></a>
+
+                <a href=<?php echo $room[googleMap]?> target="_blank">Google Map</a>
             </div>
         </div>
         <?php } ?>
