@@ -21,7 +21,7 @@
             <ul>
                 <?php
                 foreach ($sallesBloc as $salle) {?>
-                    <li class=\"li_menu-esc\"><a href=#mroc"><?php echo $salle; ?> </a></li>
+                    <li class="li_menu-esc\"><a href=#mroc"><?php echo $salle; ?> </a></li>
                 <?php } ?>
             </ul>
 
@@ -29,17 +29,16 @@
 
         <div class="listing_voies">
             <h3>Salles de voies</h3>
+
             <ul>
                 <?php
-                foreach ($sallesVoies as $salle) { ?>
-                    <li class=\"li_menu-esc\"><a href=#mroc"><?php echo $salle; ?> </a></li>
+                foreach ($sallesVoies as $key => $value ) { ?>
+                    <li class="li_menu-esc\"><a href=#mroc><?php echo $value[0]; ?> </a></li>
                 <?php } ?>
             </ul>
 
         </div>
     </div>
-
-    <!-- Fin nouvelle en-tete Amélie-->
 
 
     <article class="cardSalles">
