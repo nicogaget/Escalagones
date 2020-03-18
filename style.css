@@ -245,7 +245,7 @@ h3 {
     background: white;
     margin-top: 6px;
     transition: background 2s ease-in-out;
-    --webkit-transition:background : transform 2s ease-in-out;
+
 }
 
 .btn-navigation .barre.white {
@@ -264,14 +264,14 @@ h3 {
     transform: translateX(100%);
     
     transition: transform 1s ease-in-out;
-    --webkit-transition:transition: transform 1s ease-in-out;
+
 }
 
 .nav-bar-escalade.isOpen {
     transform: translateX(0%);
     --webkit-transform: translateX(0%);
     transition: transform 1s ease-in-out;
-    --webkit-transition:transition: transform 1s ease-in-out;
+
 }
 
 .nav-bar-escalade ul {
@@ -643,7 +643,7 @@ footer img {
     transform: translateX(0%);
 
     transition: transform 1s ease-in-out;
-    --webkit-transition:transition: transform 1s ease-in-out;
+
 
     }
 
@@ -651,7 +651,7 @@ footer img {
     transform: translateX(0%);
     --webkit-transform: translateX(0%);
     transition: transform 1s ease-in-out;
-    --webkit-transition:transition: transform 1s ease-in-out;
+
     }
 
     .nav-bar-escalade ul {
@@ -687,7 +687,9 @@ footer img {
         margin: 50px auto;
         border: 1px solid #292b2c;
     }
-
+    .liste_salles ul li{
+        list-style-type: none;
+    }
   
 
     /* fin responsive nico */

@@ -1,5 +1,5 @@
 <?php include "_header.php"?>
-
+<?php require "table.php"?>
 
     <h2 id="grimperensalle"> Grimper en intérieur </h2>
 
@@ -13,31 +13,32 @@
     <p class="intro_para">Ici vous découvrirez les salles destinées uniquement au bloc, ainsi que les salles proposant
         des voies.</p>
     </div>
+
     <div class="liste_salles">
         <div class="listing_block">
+
             <h3>Salles de bloc</h3>
             <ul>
-                <li class="li_menu-esc"><a href="#mroc">MROC LAENNEC </a></li>
-                <li class="li_menu-esc"><a href="#mroc">MROC PART-DIEU </a></li>
-                <li class="li_menu-esc"><a href="#mroc">MROC VILLEURBANNE </a></li>
+                <?php
+                foreach ($sallesBloc as $salle) {?>
+                    <li class="li_menu-esc\"><a href=#mroc"><?php echo $salle; ?> </a></li>
+                <?php } ?>
             </ul>
+
         </div>
 
         <div class="listing_voies">
             <h3>Salles de voies</h3>
-            <ul>
-                <li  class="li_menu-esc"><a href="#verticalart">VERTICAL'ART</a> </li>
-                <li  class="li_menu-esc"><a href="#climbup">CLIMB UP LYON CONFLUENCE </a></li>
-                <li  class="li_menu-esc"><a href="#climbup">CLIMB UP LYON GERLAND</a> </li>
-                <li  class="li_menu-esc"><a href="#holdup">HOLD'UP ESCALADE</a> </li>
-                <li  class="li_menu-esc"><a href="#arbresle">ESPACE ESALADE A L'ARBRESLE</a> </li>
 
+            <ul>
+                <?php
+                foreach ($sallesVoies as $key => $value ) { ?>
+                    <li class="li_menu-esc\"><a href=#mroc><?php echo $value[0]; ?> </a></li>
+                <?php } ?>
             </ul>
 
         </div>
     </div>
-
-    <!-- Fin nouvelle en-tete Amélie-->
 
 
     <article class="cardSalles">

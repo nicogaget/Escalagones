@@ -31,6 +31,7 @@
                     <li><a href="exterieur.php">Extérieur</a></li>
                     <li><a href="grimperEnsemble.php">Grimper ensemble</a></li>
                     <li><a href="materiel.php">Matériel</a></li>
+                    <li><a href="test.php">test</a></li>
                     <li><a href="grimperEnsemble.php#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a></li>
                 </ul>
             </nav>
