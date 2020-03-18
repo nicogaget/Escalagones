@@ -13,14 +13,19 @@
     <p class="intro_para">Ici vous découvrirez les salles destinées uniquement au bloc, ainsi que les salles proposant
         des voies.</p>
     </div>
+
     <div class="liste_salles">
         <div class="listing_block">
+
             <h3>Salles de bloc</h3>
             <ul>
-                <li class="li_menu-esc"><a href="#mroc">MROC LAENNEC </a></li>
-                <li class="li_menu-esc"><a href="#mroc">MROC PART-DIEU </a></li>
-                <li class="li_menu-esc"><a href="#mroc">MROC VILLEURBANNE </a></li>
+                <?php
+                $salles_bloc =['MROC LAENNEC','MROC PART-DIEU','MROC VILLEURBANNE'];
+                foreach ($salles_bloc as $salle) {?>
+                    <li class=\"li_menu-esc\"><a href=#mroc"><?php echo $salle ?> </a></li>
+                <?php } ?>
             </ul>
+
         </div>
 
         <div class="listing_voies">
