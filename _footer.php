@@ -1,17 +1,19 @@
 <footer>
-    <div class="liens-footer">
+        <nav class="navbar fixed-bottom navbar-dark bg-dark">
+            <div>
+            <a href="index.php" title="permet de retourner sur le haut de la page d'accueil">Retour à l'accueil</a>
+            <a href="grimperEnsemble.html#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a>
+            <a href="#" data-toggle="modal" data-target="#exampleModalCenter"
+               title="permet de voir les mentions légales du site">Mentions légales</a>
+            </div>
+            <div>
+            <img src="images/facebook.png" alt="icone facebook">
+            <img src="images/twitter.png" alt="icone twitter">
+            <img src="images/instagram.png" alt="icone instagram">
+            </div>
+        </nav>
 
-        <a href="index.php" title="permet de retourner sur le haut de la page d'accueil">Retour à l'accueil</a>
-        <a href="grimperEnsemble.html#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a>
-        <a href="#" data-toggle="modal" data-target="#exampleModalCenter"
-           title="permet de voir les mentions légales du site">Mentions légales</a>
 
-    </div>
-    <div class="reseaux-sociaux">
-        <img src="images/facebook.png" alt="icone facebook">
-        <img src="images/twitter.png" alt="icone twitter">
-        <img src="images/instagram.png" alt="icone instagram">
-    </div>
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

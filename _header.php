@@ -16,12 +16,6 @@
 
 <body>
     <header>
-        <div class="btn-navigation">
-            <div class="barre"></div>
-            <div class="barre"></div>
-            <div class="barre"></div>
-            <div class="barre"></div>
-        </div>
 
         <div class="body-header">
             <nav class="nav-bar-escalade">
@@ -36,6 +30,12 @@
                 </ul>
             </nav>
 
+        </div>
+        <div class="btn-navigation">
+            <div class="barre"></div>
+            <div class="barre"></div>
+            <div class="barre"></div>
+            <div class="barre"></div>
         </div>
 
     </header>
