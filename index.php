@@ -1,10 +1,11 @@
+<?php $pageTitle ='Bienvenue sur EscalaGones'?>
 <?php include "_header.php"?>
 <?php require "table.php"?>
-    <div id="banniere">
+    <div>
         <h2>Escalagones</h2>
         <p> Le site incourtounable des grimpeurs.ses en région Lyonnaise !</p>
     </div>
-    <div class="texteAccueil">
+    <div >
         <h3>Bienvenue sur le site de référence de l'escalade lyonnaise !</h3>
         <p>Grimpeur.se novice ou as de la grimpe, seul.e ou accompagné.e, Escalagones est un véritable roadbook pour
             satisfaire toutes vos envies !
@@ -16,15 +17,15 @@
     </div>
 
 
-    <section class=cardHomePage>
+    <section >
         <?php foreach ($welcomeInfos as $key => $value){?>
-        <div class="card" style="width: 18rem;">
+        <div >
 
-            <div class="card-body">
-                <h5 class="card-title"><?php echo $key ?> </h5>
-                <p class="card-text"><?php echo $value?></p>
-                <a href="interieur.php" class="btn btn-success cardButton">Voir plus</a>
+            <div >
+                <h5 ><?php echo $key ?> </h5>
+                <p ><?php echo $value?></p>
             </div>
         </div>
     </section>
     <?php } ?>
+<?php include "_footer.php" ?>

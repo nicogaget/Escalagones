@@ -1,15 +1,15 @@
 <footer>
-        <nav class="navbar fixed-bottom navbar-dark bg-dark">
-            <div>
+        <nav >
+            <div class="site-link">
             <a href="index.php" title="permet de retourner sur le haut de la page d'accueil">Retour à l'accueil</a>
             <a href="grimperEnsemble.html#formulaire" title="ouvre un formulaire de contact">Contactez-nous</a>
             <a href="#" data-toggle="modal" data-target="#exampleModalCenter"
                title="permet de voir les mentions légales du site">Mentions légales</a>
             </div>
-            <div>
-            <img src="images/facebook.png" alt="icone facebook">
-            <img src="images/twitter.png" alt="icone twitter">
-            <img src="images/instagram.png" alt="icone instagram">
+            <div class="social-link">
+            <img src="images/icon_facebook.png" alt="icone facebook">
+            <img src="images/icon_twitter.png" alt="icone twitter">
+            <img src="images/icon_instagram.png" alt="icone instagram">
             </div>
         </nav>
 
@@ -38,19 +38,9 @@
         </div>
     </div>
 </footer>
-
-<!-- JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="app.js"></script>
 </body>
 

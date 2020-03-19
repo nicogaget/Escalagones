@@ -17,7 +17,9 @@ $roomsVoies = [
         'openingTime' => 'Du Lundi au Dimanche de 11h00 à 23h00.',
         'webSiteName' => 'Vertical\'art.fr',
         'webSite' => 'https://lyon.vertical-art.fr/',
-        'googleMap' => 'https://g.page/Verticalartlyon?share'
+        'googleMap' => 'https://g.page/Verticalartlyon?share',
+        'img' => 'images/ng_bloc.jpg',
+        'imgAlt' =>"Vertical'art'"
     ],
     ['type' => 'Salle de voie',
         'name' => 'CLIMB UP LYON CONFLUENCE',
@@ -25,7 +27,9 @@ $roomsVoies = [
         'openingTime' => 'Du Lundi au Dimanche de 10h00 à 23h30',
         'webSiteName' => 'Lyon-confluence.climb-up.fr',
         'webSite' => 'https://lyon-confluence.climb-up.fr/',
-        'googleMap' => 'https://goo.gl/maps/YG4gTagScJnpMZVh9'
+        'googleMap' => 'https://goo.gl/maps/YG4gTagScJnpMZVh9',
+        'img' => 'images/ng_bloc2.jpg',
+        'imgAlt' =>"CLIMB UP LYON CONFLUENCE'"
 
     ],
     ['type' => 'Salle de voie',
@@ -34,7 +38,9 @@ $roomsVoies = [
         'openingTime' => 'Du Lundi au Dimanche de 10h00 à 23h30',
         'webSiteName' => 'Lyon-gerland.climb-up.fr',
         'webSite' => 'https://lyon-gerland.climb-up.fr/',
-        'googleMap' => 'https://goo.gl/maps/5JSNYDZpNGxgfpAv7'
+        'googleMap' => 'https://goo.gl/maps/5JSNYDZpNGxgfpAv7',
+        'img' => 'images/ng_bloc3.jpg',
+        'imgAlt' =>"CLIMB UP LYON GERLAND"
     ],
     ['type' => 'Salle de voie',
         'name' => 'ESPACE ESCALADE A L\'ARBRESLE',
@@ -42,7 +48,9 @@ $roomsVoies = [
         'openingTime' => ' Mardi & Jeudi 12:00-22:00 / Mercredi & Vendredi 14:00-22:00 / Samedi 09:00-18:00',
         'webSiteName' => 'espace-escalade.com',
         'webSite' => 'http://www.espace-escalade.com/',
-        'googleMap' => 'https://goo.gl/maps/Qx4HWtkeiowy7x1K8'
+        'googleMap' => 'https://goo.gl/maps/Qx4HWtkeiowy7x1K8',
+        'img' => 'images/ng_bloc4.jpg',
+        'imgAlt' =>'ESPACE ESCALADE A L\'ARBRESLE'
     ],
     ['type' => 'Salle de voie',
         'name' => 'HOLD\'UP ESCALADE',
@@ -50,7 +58,9 @@ $roomsVoies = [
         'openingTime' => 'Du Lundi au Dimanche de 11h00 à 22h00.',
         'webSiteName' => 'holdup-escalade.fr',
         'webSite' => 'http://holdup-escalade.fr/',
-        'googleMap' => 'https://g.page/holdupescalade?share'
+        'googleMap' => 'https://g.page/holdupescalade?share',
+        'img' => 'images/ng_bloc5.jpg',
+        'imgAlt' =>'HOLD\'UP ESCALADE'
     ],
 
 ];

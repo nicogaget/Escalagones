@@ -1,3 +1,4 @@
+<?php $pageTitle ='Grimper en Extérieur' ?>
 <?php include "_header.php"?>
  
     <section >

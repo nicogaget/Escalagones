@@ -1,3 +1,4 @@
+<?php $pageTitle ='Grimper ensemble' ?>
 <?php include "_header.php"?>
     <!-- Code pour la page "Grimper Ensemble"-->
 

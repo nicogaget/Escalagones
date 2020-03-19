@@ -1,3 +1,4 @@
+<?php $pageTitle ='Matériel' ?>
 <?php include "_header.php"?>
 
   <section id="titrepage">
