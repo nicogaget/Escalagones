@@ -2,233 +2,14 @@
     margin: 0;
     padding: 0;
 }
-
-header{
-    font-family: 'Fjalla One', sans-serif;
-}
-
-.texteAccueil, .texteInterieur, .texteExterieur, .titresEnsemble, .sstitre {
-    text-align: center;
-    padding: 20px;
-    width: 80%;
-    margin: 50px auto;
-}
-
-.texteAccueil p, .texteInterieur p, .texteExterieur p{
-    display: none;
-}
-
-.liste_salles {
-    margin-bottom: 50px;
-}
-
-.liste_salles a {
-    color: #5cb85c
-}
-
-.indooras {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-#titrepage{
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
-#titrepage div img{
-    width: 100%;
-    height: auto;
-}
-
-.Mattitre h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap; 
-    color: #fff;
-    font-weight: bold;   
-}
-
-/* BODY CARTES MATERIEL*/
-
-.seprate-line {
-	width: 20px; height: 3px; background: white;
-}
-.g-card {
-  margin: auto;
-  top: 100px;
-  width: 320px;
-  min-height: 400px;
-  overflow: hidden;
-  background: linear-gradient(135deg, #02aab0, #00cdac);
-  padding: 60px 30px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-}
-
-/*************************/
-
-/*IMAGES CARTES MATERIEL*/
-
-.cardprdt0 img{
-    width: 300px;
-    height: auto;
-    margin-top: -110px;
-    margin-left: -60px;
-    margin-bottom: 10px;
-}
-
-
-.cardprdt1 img{
-    width: 150px;
-    height: auto;
-    margin-top: -30px;
-    margin-left: 60px;
-    margin-bottom: 30px;
-}
-
-.cardprdt2 img{
-    width: 150px;
-    margin-left: 50px;
-    margin-top: -30px;
-    margin-bottom: 30px;
-}
-
-.cardprdt3 img{
-    width: 150px;
-    margin-left: 60px;
-    margin-top: -30px;
-    margin-bottom: 30px;
-
-}
-
-.cardprdt4 img{
-    width: 150px;
-    margin-left: 70px;
-    margin-top: -30px;
-    margin-bottom: 30px;
-}
-
-.cardprdt5 img{
-    width: 150px;
-    margin-top: -40px;
-    margin-left: 50px;
-    margin-bottom: 30px;
-}
-
-.cardprdt6 img{
-    width: 250px;
-    margin-top: -80px;
-    margin-left: -30px;
-    margin-bottom: 30px;
-}
-
-/************************/
-
-main h3, main h2{
-    text-align: center;
-    margin-top: 20px;
-}
-
-
-/*   */
-
 body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
-/* Style pour titres toutes pages */
-
-.card-text {
-    padding-bottom : 20px;
-}
-
-
-h2 {
-    color : white;
-    background-color: #B88A5C;
-    font-family: "Segoe UI";
-    text-transform: uppercase;
-    padding: 10px;
-    height: 200px;
-    line-height: 200px;
-    text-align: center;
+header{
     font-family: 'Fjalla One', sans-serif;
-    font-size: 8vw;
-    letter-spacing: 0.1em;
-
 }
-
-h3 {
-    color : #292b2c;
-    padding : 10px;
-    font-family: 'Fjalla One', sans-serif;
-    text-align: center;
-}
-
-/* CSS spécifique page grimperEnsemble.html */
-
-.sectionForm {
-    display: flex;
-    flex-direction: column;
-    align-items : center;
-    width : 100%;
-    margin-bottom: 50px;
-}
-.form-group {
-    width : 80%;
-    padding : 10px;
-}
-.card_body{
-    position : relative;
-}
-
-.cardButtonDiv {
-    display : flex;
-}
-.cardButton {
-    position: absolute;
-    bottom: 0;
-    margin : 20px auto;
-}
-
-.form_buttons {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
-    margin-right: 10%;
-}
-
-#formButton, #formButton2 {
-    margin-left: 10px;
-}
-
-.creditPhoto {
-    font-style: italic;
-    font-size: 0.8em;
-    color : grey;
-}
-
-.creditPhoto a {
-    font-style: italic;
-    color : grey;
-    text-align: left;
-}
-
-/* fin CSS Jeff */
-
-/* debut css nico*/
 
 
 .btn-navigation {
@@ -314,11 +95,224 @@ h3 {
     width: 430px;
     height: 260px;
 }
-
+iframe{
+    width : 466px;
+}
 /*fin css nico */
+.texteAccueil, .texteInterieur, .texteExterieur, .titresEnsemble, .sstitre {
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin: 50px auto;
+}
 
-    /* début css amélie */
+.texteAccueil p, .texteInterieur p, .texteExterieur p{
+    display: none;
+}
 
+.liste_salles {
+    margin-bottom: 50px;
+}
+
+.liste_salles a {
+    color: #5cb85c
+}
+
+.indooras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#titrepage{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#titrepage div img{
+    width: 100%;
+    height: auto;
+}
+
+.Mattitre h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* BODY CARTES MATERIEL*/
+
+.seprate-line {
+    width: 20px; height: 3px; background: white;
+}
+.g-card {
+    margin: auto;
+    top: 100px;
+    width: 320px;
+    min-height: 400px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #02aab0, #00cdac);
+    padding: 60px 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+/*************************/
+
+/*IMAGES CARTES MATERIEL*/
+
+.cardprdt0 img{
+    width: 300px;
+    height: auto;
+    margin-top: -110px;
+    margin-left: -60px;
+    margin-bottom: 10px;
+}
+
+
+.cardprdt1 img{
+    width: 150px;
+    height: auto;
+    margin-top: -30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.cardprdt2 img{
+    width: 150px;
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.cardprdt3 img{
+    width: 150px;
+    margin-left: 60px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+
+}
+
+.cardprdt4 img{
+    width: 150px;
+    margin-left: 70px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.cardprdt5 img{
+    width: 150px;
+    margin-top: -40px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.cardprdt6 img{
+    width: 250px;
+    margin-top: -80px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+}
+
+/************************/
+
+main h3, main h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*   */
+
+
+
+/* Style pour titres toutes pages */
+
+.card-text {
+    padding-bottom : 20px;
+}
+
+
+h2 {
+    color : white;
+    background-color: #B88A5C;
+    font-family: "Segoe UI";
+    text-transform: uppercase;
+    padding: 10px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 8vw;
+    letter-spacing: 0.1em;
+
+}
+
+h3 {
+    color : #292b2c;
+    padding : 10px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+/* CSS spécifique page grimperEnsemble.html */
+
+.sectionForm {
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    width : 100%;
+    margin-bottom: 50px;
+}
+.form-group {
+    width : 80%;
+    padding : 10px;
+}
+.card_body{
+    position : relative;
+}
+
+.cardButtonDiv {
+    display : flex;
+}
+.cardButton {
+    position: absolute;
+    bottom: 0;
+    margin : 20px auto;
+}
+
+.form_buttons {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+#formButton, #formButton2 {
+    margin-left: 10px;
+}
+
+.creditPhoto {
+    font-style: italic;
+    font-size: 0.8em;
+    color : grey;
+}
+
+.creditPhoto a {
+    font-style: italic;
+    color : grey;
+    text-align: left;
+}
 .cardHomePage, .sectionCards {
     display: flex;
     flex-direction: row;
@@ -365,14 +359,11 @@ h3 {
     margin: 20px;
     text-align: center;
 }
- .liste_salles{
+
+.liste_salles{
      text-align: center;
      color: black;  
  }
-
-/* Fin css Amélie pour haut de page intérieur */
-
-/*Début Css Amélie pour tableau matériel*/
 
 .choixMateriel{
     margin-top: 150px;
@@ -390,58 +381,11 @@ thead {
     align-items: center;
 }
 
-
-
-
-/* fin css amélie */
-
-/* début css justine */
-footer {
-    background-color: #292b2c;
-    margin-top: auto;
-    width: 100%;
-}
-
-    footer img {
-        width: 40px;
-        height: 40px;
-        padding: 5px;
-        margin: 5px;
-    }
-
-    /* fin css justine */
-/* 
- Début CSS Pascal */
-
 #accordion {
     width: 80%;
     margin : auto;
     min-width: 20%;
 }
-
-/* 
-.btn {
-    color: white;
-}
- */
-
-
-/*.intro_bloc_voie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    }
-
-
-.intro_para {
-    text-align: center;
-    width: 60%;
-    padding:5px 10px;
-    border:2px solid black;
-    border-radius: 10px;
-
-}*/
 
 
 .cardSalles  {
@@ -464,16 +408,6 @@ footer {
     color: #5cb85c
 }
 
-
-.voie  {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-
 .liens_web {
     border:1px solid #f7f7f7;
     margin : 10px;
@@ -481,27 +415,11 @@ footer {
     text-align: center;
 }
 
-
 .lien_google{
     text-align: center;
     margin : 10px;
     padding: 10px;
 }
-
-.lien_google_mroc a {
-    padding: 30px;
-    text-align: center;
-}
-
-.lien_google_mroc p {
-    padding-left: 30px;
-    text-align: center;
-}
-
-/* .lien_google_climbup a {
-    padding: 50px; 
-
-} */
 
 .lien_google_climbup  {
     margin: auto;
@@ -512,27 +430,7 @@ footer {
     list-style-type: none;
 }
 
-#mroc{
-    height: 400px;
-}
-#verticalart{
-    height: 400px;
-}
-#climbup {
-    height: 400px; 
-}
-#holdup {
-    height: 400px;
-}
-#climbup {
-    height: 400px;
-}
-#climbup {
-    height: 400px;
-}
-#arbresle { 
-    height: 400px;
-}
+
 
 .para_escalade {
     margin : 10px;
@@ -540,20 +438,6 @@ footer {
     padding: 10px;
     border:2px solid #f7f7f7 
 }
-
-
-
-/* 
-iframe {
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-} */
-
-/*.listing_block {
-    display: flex;
-}*/
 
 .ul_block {
     display: flex;
@@ -577,7 +461,18 @@ iframe {
     color:#5cb85c;
     float: right;
 }
+footer {
+    background-color: #292b2c;
+    margin-top: auto;
+    width: 100%;
+}
 
+footer img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+}
 footer a {
     text-align: center;
     padding: 5px;
@@ -594,6 +489,12 @@ footer a:visited{
     text-decoration: none;
     color: #fff;
 }
+footer img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+}
 
 .reseaux-sociaux {
     display: flex;
@@ -603,12 +504,7 @@ footer a:visited{
     padding-bottom: 25px;
 }
 
-footer img {
-    width: 40px;
-    height: 40px;
-    padding: 5px;
-    margin: 5px;
-}
+
 
 
 /* fin css justine */
@@ -635,11 +531,11 @@ footer img {
     }
 
     .nav-bar-escalade {
-    position: static;
+
+    position: fixed;
+    height: auto;
     left: 0;
     background-color: #5cb85c;
-    opacity: 1;
-    z-index:0;
     transform: translateX(0%);
 
     transition: transform 1s ease-in-out;
