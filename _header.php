@@ -27,14 +27,13 @@
                             <a class="dropdown-item" href="interieur.php">Grimper en intérieur</a>
                             <a class="dropdown-item" href="exterieur.php">Grimper en extérieur</a>
                             <a class="dropdown-item" href="grimperEnsemble.php">Grimper ensemble</a>
-                            <a class="dropdown-item" href="#">Matériel</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="grimperEnsemble.php#formulaire">Contactez nous !</a>
+                            <a class="dropdown-item" href="materiel.php">Matériel</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="grimperEnsemble.php#formulaire">Contactez nous !</a>
-                    </li>
+                </ul>
+                    <div class="nav-item contact">
+                        <a class="nav-link" href="grimperEnsemble.php#formulaire">Contact</a>
+                    </div>
 
                 </ul>
             </nav>

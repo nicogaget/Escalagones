@@ -3,7 +3,10 @@ $pageTitle = 'Grimper en intérieur';
 include "_header.php";
 require "table.php";
 ?>
-<h2><?= $pageTitle ?> </h2>';
+<div class="in-banner">
+    <h2><?= $pageTitle ?> </h2>
+</div>
+
 
 
     <div

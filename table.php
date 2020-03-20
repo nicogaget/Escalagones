@@ -1,14 +1,27 @@
 <?php
 // page interieur.php
 $welcomeInfos=[
-    'Grimper en intérieur' => 'Il existe différentes salles pour grimper sur Lyon, que vous soyez adeptes du bloc ou de la voie. Découvrez ici les différents pratiques, les salles et leurs offres !',
-    'Grimper en extérieur' =>'Grimper en extérieur est accessible à tous, à conditions de connaître les bons spots ! Découvrez ici les meilleurs endroits pour grimper en extérieur, dans Lyon et ses environs.',
-    'Grimper ensemble' =>  'Si le bloc peut se pratiquer seul.e, les voies nécessitent un.e partenaire de grimpe. Ici nous regroupons des annonces pour vous retrouver, et passer un bon moments à la salle en étant sûr d\'avoir un.e partenaire. Vous pouvez-aussi retrouver des événements pour grimper en extérieur ou proposer vos propres événements !',
-    'Matériel'=>'Débutant.e.s ou initié.e.s, si vous cherchez des conseils sur le matériel à avoir, vous êtes au bon endroit. Retrouvez le matériel de base pour du bloc, de la voie, ou l\'aventure à l\'extérieur.',
-    'Contactez nous !' =>   'Une question ? Une envie de proposer un événement ? Pour toute demande, n\'hésitez pas à nous contacter via notre formulaire. Toute la team Escalagones se fera un plaisir de vous répondre.'
-
+    ['page' => 'Grimper en intérieur',
+        'infos'=>'Il existe différentes salles pour grimper sur Lyon, que vous soyez adeptes du bloc ou de la voie. Découvrez ici les différents pratiques, les salles et leurs offres !',
+        'page-link'=> 'intérieur.php'
+    ],
+    ['page' => 'Grimper en extérieur',
+        'infos'=>'Grimper en extérieur est accessible à tous, à conditions de connaître les bons spots ! Découvrez ici les meilleurs endroits pour grimper en extérieur, dans Lyon et ses environs.',
+        'page-link'=> 'exterieur.php'
+    ],
+    ['page' => 'Grimper ensemble',
+        'infos'=> 'Si le bloc peut se pratiquer seul.e, les voies nécessitent un.e partenaire de grimpe. Ici nous regroupons des annonces pour vous retrouver, et passer un bon moments à la salle en étant sûr d\'avoir un.e partenaire. Vous pouvez-aussi retrouver des événements pour grimper en extérieur ou proposer vos propres événements !',
+        'page-link'=> 'grimperEnsemble.php'
+    ],
+    ['page' => 'Matériel',
+        'infos'=> 'Débutant.e.s ou initié.e.s, si vous cherchez des conseils sur le matériel à avoir, vous êtes au bon endroit. Retrouvez le matériel de base pour du bloc, de la voie, ou l\'aventure à l\'extérieur.',
+        'page-link'=> 'matériel.php'
+    ],
+    ['page' => 'Contactez nous !',
+        'infos'=> 'Une question ? Une envie de proposer un événement ? Pour toute demande, n\'hésitez pas à nous contacter via notre formulaire. Toute la team Escalagones se fera un plaisir de vous répondre.',
+        'page-link' => 'contact.php'
+    ]
 ];
-
 
 $roomsVoies = [
     ['type' => 'Salle de voie',
