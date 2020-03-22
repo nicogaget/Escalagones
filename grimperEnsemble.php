@@ -1,5 +1,8 @@
-<?php $pageTitle ='Grimper ensemble' ?>
-<?php include "_header.php"?>
+<?php $pageTitle ='Grimper ensemble';
+include "_header.php";
+require "table.php";
+require "functions.php"
+?>
     <!-- Code pour la page "Grimper Ensemble"-->
 
 
@@ -9,59 +12,11 @@
     <div class="titresEnsemble">
         <h3>Les évènements à venir</h3>
     </div>
-    <section class="sectionCards">
+    <article>
         <!-- Evènement 1-->
-        <div class="card" style="width: 18rem;">
-            <img src="images/gd_climber_force.jpg" class="card-img-top" alt="Une personne escalade un mur en intérieur">
-            <div class="card-body">
-                <h5 class="card-title">Challenge Grimpe</h5>
+        <?php displayCardPage($events);?>
 
-                <p>Rejoignez-nous ce samedi 14 mars pour notre nouveau challenge chronométré : un.e seul.e grimpeur.se
-                    sera gagnant.e !</p>
-                <p class="card-text creditPhoto">Image par <a href="https://visualhunt.com/re6/95a6fcb0">Visual hunt</a>
-                </p>
-                <a href="#" class="btn btn-success cardButton">Voir l'événement</a>
-            </div>
-
-
-        </div>
-        <!-- Evènement 2-->
-        <div class="card" style="width: 18rem;">
-            <img src="images/gd_iceClimb.jpg" class="card-img-top" alt="Deux grimpeurs sur une cascade gelée">
-            <div class="card-body">
-                <h5 class="card-title">Ice Climbing !</h5>
-
-                <p>Dimanche 22 mars, nous vous proposons de venir affronter les torrents glacés des Alpes.
-                    Au programme, escalade d'une cascade gelée, qui promet pas mal de frissons !
-                </p>
-                <p class="card-text creditPhoto">Image par <a
-                        href="https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1247606">Pixabay</a>
-                </p>
-                <a href="#" class="btn btn-success cardButton">Voir l'événement</a>
-            </div>
-        </div>
-
-        <!-- Evènement 3-->
-        <div class="card" style="width: 18rem;">
-            <img src="images/gd_enFamille.png" class="card-img-top" alt="Deux enfants font de l'escalade">
-            <div class="card-body">
-                <h5 class="card-title">Grimper avec vos Gones !</h5>
-
-                <p>Le samedi 28 mars, à partir de 15h :
-                    parents débutants ou expérimentés, faites découvrir votre passion à vos enfants !</p>
-                <p>Ils auront accès à un mur dédié, accompagnés d'un.e animateur.trice, en toute sécurité.
-                    Activités accessibles aux enfants à partir de 4 ans.</p>
-
-                <p class="card-text creditPhoto">Image par <a
-                        href="https://visualhunt.com/re6/e4cb601b">VisualHunt.com</a>
-                </p>
-                <a href="#" class="btn btn-success cardButton">Voir l'événement</a>
-            </div>
-        </div>
-
-
-
-    </section>
+    </article>
 
 
 
