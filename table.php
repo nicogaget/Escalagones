@@ -22,7 +22,6 @@ $welcomeInfos=[
         'page-link' => 'contact.php'
     ]
 ];
-
 $roomsVoies = [
     ['type' => 'Salle de voie',
         'name' => "VERTICAL'ART",
@@ -36,7 +35,7 @@ $roomsVoies = [
     ],
     ['type' => 'Salle de voie',
         'name' => 'CLIMB UP LYON CONFLUENCE',
-        'infos' => 'Fun Climbing et activités ludiques pour les plus jeunes, une salle de voies avec des murs de 22 mètres de long et des itinéraires du.de la débutant.e à l\'expert.e !',
+        'infos' => 'Fun Climbing et activités ludiques pour les plus jeunes, une salle de voies avec des murs de 22 mètres de long et des itinéraires du.de la débutant.e à l\'expert.e!',
         'openingTime' => 'Du Lundi au Dimanche de 10h00 à 23h30',
         'webSiteName' => 'Lyon-confluence.climb-up.fr',
         'webSite' => 'https://lyon-confluence.climb-up.fr/',
@@ -47,17 +46,17 @@ $roomsVoies = [
     ],
     ['type' => 'Salle de voie',
         'name' => 'CLIMB UP LYON GERLAND',
-        'infos' => 'Fun Climbing et activités ludiques pour les plus jeunes, une salle de voies avec des murs de 22 mètres de long et des itinéraires du.de la débutant.e à l\'expert.e !',
+        'infos' => 'Fun Climbing et activités ludiques pour les plus jeunes, une salle de voies avec des murs de 22 mètres de long et des itinéraires du.de la débutant.e à l\'expert.e!',
         'openingTime' => 'Du Lundi au Dimanche de 10h00 à 23h30',
         'webSiteName' => 'Lyon-gerland.climb-up.fr',
         'webSite' => 'https://lyon-gerland.climb-up.fr/',
         'googleMap' => 'https://goo.gl/maps/5JSNYDZpNGxgfpAv7',
-        'img' => 'images/ng_bloc3.jpg',
+        'img' => 'images/ng_bloc3.jpeg',
         'imgAlt' =>"CLIMB UP LYON GERLAND"
     ],
     ['type' => 'Salle de voie',
-        'name' => 'ESPACE ESCALADE A L\'ARBRESLE',
-        'infos' => 'Voies, blocs, grimpeur.se débutant.e ou confirmé.e, en cours ou en accès libre, enfant ou adulte, tous pratiquent dans ce même lieu de vie !',
+        'name' => 'ESCALADE A L\'ARBRESLE',
+        'infos' => 'Voies, blocs, grimpeur.se débutant.e ou confirmé.e, en cours ou en accès libre, enfant ou adulte, tous pratiquent dans ce même lieu de vie!',
         'openingTime' => ' Mardi & Jeudi 12:00-22:00 / Mercredi & Vendredi 14:00-22:00 / Samedi 09:00-18:00',
         'webSiteName' => 'espace-escalade.com',
         'webSite' => 'http://www.espace-escalade.com/',
@@ -97,3 +96,43 @@ $roomsBloc=[
         'googleMap' => 'https://g.page/mrocvilleurbanne?share'
     ]
     ];
+$outsideRooms =[
+    ['name'=>'Mur de la Mulatière',
+    'infos'=> 'Site de structure artificielle d\'escalade gratuite et libre d\'accès intéressant pour ses voies jusqu\'au 5c.',
+    'webSite'=> 'https://www.lamulatiere.fr/index.php/Loisirs?idpage=128&idmetacontenu=177',
+    'googleMap'=>'https://www.google.com/maps/place/Mur+de+La+Mulati%C3%A8re/@45.7256682,4.8061058,15z/data=!4m12!1m6!3m5!1s0x0:0xce7e8929450f0a6d!2sMur+de+La+Mulati%C3%A8re!8m2!3d45.7256682!4d4.8061058!3m4!1s0x0:0xce7e8929450f0a6d!8m2!3d45.7256682!4d4.8061058'
+    ],
+    ['name'=>'Mur de la Croix Rousse',
+    'infos'=> 'Site de structure artificielle d\'escalade gratuite et libre d\'accès intéressant pour ses voies jusqu\'au 5c et du 6a au 6c.',
+    'webSite'=> 'https://climbingaway.fr/fr/site-escalade/mur-de-la-croix-rousse',
+    'googleMap'=>'https://www.google.com/maps/search/mur+escalade+de+la+croix+rousse/@45.7779541,4.8197794,16z'
+    ],
+    ['name' =>'Salle d\'escalade de Curis au Mont d\'Or',
+    'infos'=> 'Vingt six voies sont proposées entre 10 et 15m de haut. La FFME en assure l’entretien et la sécurité.',
+    'webSite'=> 'https://www.curis.fr/site-descalade/',
+    'googleMap'=>'https://www.google.com/maps/place/Curris/@45.867891,4.8131168,15z/data=!4m5!3m4!1s0x0:0x777b76898a0f317e!8m2!3d45.867891!4d4.8131168'
+    ]
+];
+$events=[
+    ['name'=> 'Challenge Grimpe',
+    'infos'=>'Rejoignez-nous ce samedi 14 mars pour notre nouveau challenge chronométré : un.e seul.e grimpeur.se sera gagnant.e !',
+    'webSite'=>'#',
+    'img'=>'images/gd_climber_force.jpg',
+    'photoCreditLink'=>'https://visualhunt.com/re6/95a6fcb0',
+    'photoCreditName'=>'Visualhunt.com'
+    ],
+    ['name'=> 'Ice Climbing !',
+    'infos'=>'Dimanche 22 mars, nous vous proposons de venir affronter les torrents glacés des Alpes. Au programme, escalade d\'une cascade gelée, qui promet pas mal de frissons !',
+    'webSite'=>'#',
+    'img'=>'images/gd_iceClimb.jpg',
+    'photoCreditLink'=>'https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1247606',
+    'photoCreditName'=>'Pixabay.com'
+    ],
+    ['name'=> 'Grimper avec vos Gones !',
+    'infos'=>'Le samedi 28 mars, à partir de 15h : parents débutants ou expérimentés, faites découvrir votre passion à vos enfants ! Ils auront accès à un mur dédié, accompagnés d\'un.e animateur.trice, en toute sécurité. Activités accessibles aux enfants à partir de 4 ans.',
+    'webSite'=>'#',
+    'img'=>'images/gd_enFamille.png',
+    'photoCreditLink'=>'https://visualhunt.com/re6/e4cb601b',
+    'photoCreditName'=>'VisualHunt.com'
+    ],
+];

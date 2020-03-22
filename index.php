@@ -1,10 +1,12 @@
-<?php $pageTitle ='Bienvenue sur EscalaGones'?>
-<?php include "_header.php"?>
-<?php require "table.php"?>
+<?php $pageTitle ='EscalaGones';
+ include "_header.php";
+ require "table.php";
+ require "functions.php";
+?>
 
 
     <div class="welcome-banner">
-        <h2>Escalagones</h2>
+        <h2><?= $pageTitle ?> </h2>
         <p>Le site incourtounable des grimpeurs.ses en région Lyonnaise !</p>
     </div>
 
@@ -24,23 +26,7 @@
                 </div>
 
         </section>
-
-    <div class="container-card">
-    <?php foreach ($welcomeInfos as $pages){?>
-        <section class="card-section">
-                <div class="col-md-12">
-                    <div class="card">
-                        <h5 class="card-header"><?= $pages[page] ?></h5>
-                        <div class="card-body">
-                            <p class="card-text"><?= $pages[infos] ?></p>
-                            <a href="<?=$pages[page-link]?>" class="btn btn-primary">Voir plus</a>
-                        </div>
-                    </div>
-                </div>
-
-       </section>
-    <?php } ?>
-    </div>
+            <?php displayIndexCard($welcomeInfos)?>
     </section>
 
 <?php include "_footer.php" ?>
