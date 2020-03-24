@@ -1,7 +1,7 @@
 <?php
 require "table.php";
-var_dump($roomsVoies);
-<?php foreach ($roomsVoies as $room) { ?>
+
+foreach ($roomsVoies as $room) { ?>
     <div>
         <div><?php echo $room[name] ?></div>
         <div>

@@ -3,23 +3,23 @@
 $welcomeInfos=[
     ['page' => 'Grimper en intérieur',
         'infos'=>'Il existe différentes salles pour grimper sur Lyon, que vous soyez adeptes du bloc ou de la voie. Découvrez ici les différents pratiques, les salles et leurs offres !',
-        'page-link'=> 'intérieur.php'
+        'pageLink'=> "interieur.php"
     ],
     ['page' => 'Grimper en extérieur',
         'infos'=>'Grimper en extérieur est accessible à tous, à conditions de connaître les bons spots ! Découvrez ici les meilleurs endroits pour grimper en extérieur, dans Lyon et ses environs.',
-        'page-link'=> 'exterieur.php'
+        'pageLink'=> 'exterieur.php'
     ],
     ['page' => 'Grimper ensemble',
         'infos'=> 'Si le bloc peut se pratiquer seul.e, les voies nécessitent un.e partenaire de grimpe. Ici nous regroupons des annonces pour vous retrouver, et passer un bon moments à la salle en étant sûr d\'avoir un.e partenaire. Vous pouvez-aussi retrouver des événements pour grimper en extérieur ou proposer vos propres événements !',
-        'page-link'=> 'grimperEnsemble.php'
+        'pageLink'=> 'grimperEnsemble.php'
     ],
     ['page' => 'Matériel',
         'infos'=> 'Débutant.e.s ou initié.e.s, si vous cherchez des conseils sur le matériel à avoir, vous êtes au bon endroit. Retrouvez le matériel de base pour du bloc, de la voie, ou l\'aventure à l\'extérieur.',
-        'page-link'=> 'matériel.php'
+        'pageLink'=> 'materiel.php'
     ],
     ['page' => 'Contactez nous !',
         'infos'=> 'Une question ? Une envie de proposer un événement ? Pour toute demande, n\'hésitez pas à nous contacter via notre formulaire. Toute la team Escalagones se fera un plaisir de vous répondre.',
-        'page-link' => 'contact.php'
+        'pageLlink' => 'contact.php'
     ]
 ];
 $roomsVoies = [
@@ -128,11 +128,25 @@ $events=[
     'photoCreditLink'=>'https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1247606',
     'photoCreditName'=>'Pixabay.com'
     ],
-    ['name'=> 'Grimper avec vos Gones !',
+    ['name'=> 'Grimper avec vos Gones!',
     'infos'=>'Le samedi 28 mars, à partir de 15h : parents débutants ou expérimentés, faites découvrir votre passion à vos enfants ! Ils auront accès à un mur dédié, accompagnés d\'un.e animateur.trice, en toute sécurité. Activités accessibles aux enfants à partir de 4 ans.',
     'webSite'=>'#',
     'img'=>'images/gd_enFamille.png',
     'photoCreditLink'=>'https://visualhunt.com/re6/e4cb601b',
     'photoCreditName'=>'VisualHunt.com'
     ],
+];
+$climbTogether=[
+    ['name'=>'Robert',
+        'infos'=>'Robert, grimpeur expert à Villeurbanne cherche un.e partenaire de grimpe,
+                    contactez-le ici.',
+        'img'=>'images/gd_robert.jpg',
+        'contact'=>'#'
+        ],
+    [
+        'name'=>'Claire',
+        'infos'=>'Claire, grimpeuse expérimentée, cherche un.e partenaire de grimpe, contactez-la ici.',
+        'img'=>'images/gd_claire.png',
+        'contact'=>'#'
+    ]
 ];

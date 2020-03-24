@@ -23,33 +23,10 @@ require "functions.php"
     <!-- Section pour trouver Partenaires de grimpe -->
 
     <div class="titresEnsemble">
-        <h3>Trouver un.e partenaire de grimpe !</h3>
+        <h3>Trouver un.e partenaire de grimpe!</h3>
     </div>
-    <section class="sectionCards">
-
-        <div class="card" style="width: 18rem;">
-            <img src="images/gd_robert.jpg" class="card-img-top" alt="Photo de Robert">
-            <div class="card-body">
-                <h5 class="card-title">Robert</h5>
-                <p class="card-text">Robert, grimpeur expert à Villeurbanne cherche un.e partenaire de grimpe,
-                    contactez-le ici.</p>
-                <p class="card-text creditPhoto">Image par <a href="https://visualhunt.com/re6/e4cb601b">VisualHunt</a>
-                </p>
-                <a href="#" class="btn btn-success cardButton">Le contacter</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="images/gd_claire.png" class="card-img-top" alt="Photo de Claire">
-            <div class="card-body">
-                <h5 class="card-title">Claire</h5>
-                <p class="card-text">Claire, grimpeuse expérimentée, cherche un.e partenaire de grimpe,
-                    contactez-la ici.</p>
-                <p class="card-text creditPhoto">Image par <a href="https://visualhunt.com/re6/456c498b">Visualhunt</a>
-                </p>
-
-                <a href="#" class="btn btn-success cardButton">La contacter</a>
-            </div>
-        </div>
+    <section>
+        <?php displayClimbContact($climbTogether); ?>
     </section>
     <!-- Formulaire de contact -->
     <div class="titresEnsemble"><a id="formulaire">
