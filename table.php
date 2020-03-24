@@ -150,3 +150,36 @@ $climbTogether=[
         'contact'=>'#'
     ]
 ];
+$equipments=[
+    ['name'=>'les chaussons',
+    'infos'=>'Accessoires indispensables, ils permettent de protéger vos pieds, tout en gardant la souplesse nécessaire pour affronter la paroi !',
+    'img'=>'images/cindy-chen-shoes.png',
+    'altImg'=>'Image de chaussons d\'escalade'
+    ],
+    ['name'=>'les assureurs',
+    'infos'=>'Comme le harnais, votre assureur est votre allié contre les chutes. A vérifier avant chaque ascension !',
+    'img'=>'images/carbine-5871_1920-removebg-preview.png',
+    'altImg'=>'Image d\'un assureur'
+    ],
+    ['name'=>'LA MAGNESIE',
+        'infos'=>'Protégez vos mains avec ce partenaire magique ! Améliorez votre grip, oubliez la transpiration, et
+              concentrez vous sur la grimpe !',
+        'img'=>'images/magnesie.png',
+        'altImg'=>'Image de Magnésie'
+    ],
+    ['name'=>'LA CORDE',
+        'infos'=>'Votre corde est indispensable à la pratique, à la montée, comme à la descente, à ne pas négliger !',
+        'img'=>'images/rope.png',
+        'altImg'=>'Image d\'une corde'
+    ],
+    ['name'=>'LE CASQUE',
+        'infos'=>'Accessoire à ne surtout négligez, le bon casque pourra vous éviter bien des problèmes !',
+        'img'=>'images/helmet.png',
+        'altImg'=>'Image d\'un casque'
+    ],
+    ['name'=>'LE SAC A DOS',
+    'infos'=>'Accessoire surtout utile en extérieur : bien pratique !',
+    'img'=>'images/backpack.png',
+    'altImg'=>'Image d\'un sac-à-dos'
+]
+];

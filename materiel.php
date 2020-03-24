@@ -1,17 +1,21 @@
-<?php $pageTitle ='Matériel' ?>
-<?php include "_header.php"?>
+<?php $pageTitle ='Matériel';
+include "_header.php";
+require "table.php";
+require "functions.php"?>
 
-  <section id="titrepage">
-    <div>
-      <img src="images/pxfuel.com(1).jpg" alt="Image de mousquetons d'escalade">
-      <div class="Mattitre">
-        <h2>LE MATERIEL</h2>
-      </div>
+    <div class="in-banner">
+        <h2><?= $pageTitle ?> </h2>
     </div>
+    <section class="main-section">
+        <div class="introduce">
+            <div class="introduce-card">
+                <h3 class="introduce-card-header">L'essentiel du matériel pour la pratique de l'escalade</h3>
 
-  </section>
+            </div>
+        </div>
+    </section>
 
-  <main>
+  <section class="equipment">
 
     <div class="sstitre">
       <h3>Le matériel essentiel</h3>
@@ -145,8 +149,6 @@
 
     </div>
 
-    <!--fin du tableau-->
-
-  </main>
+  </section>
 
 <?php include "_footer.php"?>

@@ -7,10 +7,10 @@
 
     <div class="welcome-banner">
         <h1><?= $pageTitle ?> </h1>
-        <p>Le site incourtounable des grimpeurs.ses en région Lyonnaise !</p>
+
     </div>
 
-    <section class="main-section">
+    <section class="main-index">
         <div class="introduce">
             <div class="introduce-card">
                 <h2 class="introduce-card-header"> Bienvenue sur le site de référence de l'escalade lyonnaise !</h2>

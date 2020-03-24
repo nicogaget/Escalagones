@@ -18,12 +18,12 @@ require "functions.php";
             </div>
         </div>
     </section>
-
+    <section class="outside">
         <article class="cardSalles">
 
             <?php displayCardPage($outsideRooms) ?>
 
         </article>
 
-
+    </section>
 <?php include "_footer.php"?>

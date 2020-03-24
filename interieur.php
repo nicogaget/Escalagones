@@ -19,20 +19,18 @@ require "functions.php"
             </div>
         </div>
     </section>
-
-    <div>
-        <h3>Salles de voies</h3>
-        <ul>
-            <?php foreach ($roomsVoies as $room) { ?>
-                <li><?php echo $room[name] ?> </a></li>
-            <?php } ?>
-        </ul>
-    </div>
-
-
+    <section class="inside">
+        <div>
+            <h3>Salles de voies</h3>
+            <ul>
+                <?php foreach ($roomsVoies as $room) { ?>
+                    <li><?php echo $room[name] ?> </a></li>
+                <?php } ?>
+            </ul>
+        </div>
 
         <article>
             <?php displayCardPage($roomsVoies) ?>
         </article>
-
+    </section>
 <?php include "_footer.php" ?>
