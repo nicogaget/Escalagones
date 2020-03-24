@@ -232,17 +232,11 @@ h4{
 }
 /*--------------------materiel-----------------*/
 .g-card {
-    margin: auto;
-    top: 100px;
-    width: 320px;
-    min-height: 400px;
+    height: 300px;
     overflow: hidden;
     background: linear-gradient(135deg, #02aab0, #00cdac);
-    padding: 60px 30px;
     box-sizing: border-box;
     border-radius: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     color: #fff;
     display: flex;
     flex-direction: column;
