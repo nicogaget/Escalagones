@@ -29,7 +29,7 @@ $roomsVoies = [
         'openingTime' => 'Du Lundi au Dimanche de 11h00 à 23h00.',
         'webSiteName' => 'Vertical\'art.fr',
         'webSite' => 'https://lyon.vertical-art.fr/',
-        'googleMap' => 'https://g.page/Verticalartlyon?share',
+        'googleMap' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2785.9383763230508!2d4.904393115565775!3d45.71227307910474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c321bdf6db77%3A0xc6605a7208416a22!2sVertical%E2%80%99Art%20Lyon!5e0!3m2!1sen!2sfr!4v1585092371197!5m2!1sen!2sfr',
         'img' => 'images/ng_bloc.jpg',
         'imgAlt' =>"Vertical'art'"
     ],
@@ -39,7 +39,7 @@ $roomsVoies = [
         'openingTime' => 'Du Lundi au Dimanche de 10h00 à 23h30',
         'webSiteName' => 'Lyon-confluence.climb-up.fr',
         'webSite' => 'https://lyon-confluence.climb-up.fr/',
-        'googleMap' => 'https://goo.gl/maps/YG4gTagScJnpMZVh9',
+        'googleMap' => 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11138.141643922501!2d4.8186669!3d45.7404112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa4fd7b91cac0376!2sClimb%20Up%20Lyon%20Confluence!5e0!3m2!1sen!2sfr!4v1585093145999!5m2!1sen!2sfr',
         'img' => 'images/ng_bloc2.jpg',
         'imgAlt' =>"CLIMB UP LYON CONFLUENCE'"
 
@@ -50,7 +50,7 @@ $roomsVoies = [
         'openingTime' => 'Du Lundi au Dimanche de 10h00 à 23h30',
         'webSiteName' => 'Lyon-gerland.climb-up.fr',
         'webSite' => 'https://lyon-gerland.climb-up.fr/',
-        'googleMap' => 'https://goo.gl/maps/5JSNYDZpNGxgfpAv7',
+        'googleMap' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.4000316601723!2d4.833391315566816!3d45.7431256791053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea379bcc2fbf%3A0x6e56ef9cd617614a!2sClimb%20Up%20Lyon%20Gerland!5e0!3m2!1sen!2sfr!4v1585093240494!5m2!1sen!2sfr',
         'img' => 'images/ng_bloc3.jpeg',
         'imgAlt' =>"CLIMB UP LYON GERLAND"
     ],
@@ -60,7 +60,7 @@ $roomsVoies = [
         'openingTime' => ' Mardi & Jeudi 12:00-22:00 / Mercredi & Vendredi 14:00-22:00 / Samedi 09:00-18:00',
         'webSiteName' => 'espace-escalade.com',
         'webSite' => 'http://www.espace-escalade.com/',
-        'googleMap' => 'https://goo.gl/maps/Qx4HWtkeiowy7x1K8',
+        'googleMap' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.3155089023358!2d4.604921615569576!3d45.82496527910697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f48b46db60cd57%3A0xde5d06a5e075e853!2sEspace%20Escalade!5e0!3m2!1sen!2sfr!4v1585093290327!5m2!1sen!2sfr',
         'img' => 'images/ng_bloc4.jpg',
         'imgAlt' =>'ESPACE ESCALADE A L\'ARBRESLE'
     ],
@@ -70,7 +70,7 @@ $roomsVoies = [
         'openingTime' => 'Du Lundi au Dimanche de 11h00 à 22h00.',
         'webSiteName' => 'holdup-escalade.fr',
         'webSite' => 'http://holdup-escalade.fr/',
-        'googleMap' => 'https://g.page/holdupescalade?share',
+        'googleMap' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.8842528636333!2d4.795511215567845!3d45.773509879106015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb7af73440d7%3A0xe9264ffcdfb34f54!2sHOLD&#39;UP%20ESCALADE!5e0!3m2!1sen!2sfr!4v1585093355357!5m2!1sen!2sfr',
         'img' => 'images/ng_bloc5.jpg',
         'imgAlt' =>'HOLD\'UP ESCALADE'
     ],

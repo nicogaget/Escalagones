@@ -23,24 +23,29 @@ require "functions.php"
 
         </article>
 
-        <div class="titresEnsemble">
+        <div class="introduce-card-header">
             <h3>Trouver un.e partenaire de grimpe!</h3>
         </div>
         <section>
             <?php displayClimbContact($climbTogether); ?>
         </section>
         <!-- Formulaire de contact -->
-        <div class="titresEnsemble"><a id="formulaire">
-                <h3>Formulaire de contact</h3>
-            </a></div>
+        <div class="introduce-card-header">
+            <a id="formulaire"><h3>Formulaire de contact</h3></a>
+        </div>
 
+        <!-- FORMULAIRE  -->
         <form class="sectionForm">
-
-
-            <!-- Menu déroulant avec les différents choix -->
-
+            <div class="form-id">
+                <div class="form-group">
+                    <input type="text" name="firstname" class="form-control" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="lastname"  class="form-control" placeholder="Votre Prénom">
+                </div>
+            </div>
             <div class="form-group">
-                <select class="custom-select" required>
+                <select class="custom-select" name="formoption" required>
                     <option value="">Je souhaite proposer un événement</option>
                     <option value="">Je souhaite proposer un lieu</option>
                     <option value="">Je souhaite vous contacter</option>
@@ -50,14 +55,14 @@ require "functions.php"
             <!-- Input de l'email et du message de l'utilisateur -->
 
             <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp"
                     placeholder="Saisissez votre email">
-                <small id="emailHelp" class="form-text text-muted">On ne partagera jamais votre email avec quelqu'un
+                <small id="emailHelp" class="form-text text-warning">On ne partagera jamais votre email avec quelqu'un
                     d'autre.</small>
             </div>
 
             <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"
                     placeholder="Saisissez votre message"></textarea>
             </div>
             <div class="form_buttons">
