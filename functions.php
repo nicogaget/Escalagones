@@ -31,36 +31,22 @@ function displayCardPage ($table)
                         <h3 class="card-header"><?= $pages[name] ?></h3>
                         <div class="card-body">
                             <div class="card-text"><?= $pages[infos] ?>
-                                <p></p><?= $pages[openingTime] ?></p>
-                                <a href="<?= $pages[webSite] ?>" class="btn btn-primary">Voir plus</a>
-                                <a href="#" data-toggle="modal" data-target="#iframe"
-                                   title="Situer sur une carte">Google Map</a>
+                                <p><?= $pages[openingTime] ?></p>
+
+                                <div class="text-center">
+                                    <a href="<?= $pages[webSite] ?>" class="btn btn-primary">Voir plus</a>
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-            </section>
-            <div class="modal fade" id="iframe" tabindex="-1" role="dialog"
-                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalCenterTitle"></h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true"><?=$pages[name]?></span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <iframe src="<?=$pages[googleMap]?>"></iframe>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section>
+
+
+
         <?php } ?>
     <?php }?>
     </div>
@@ -111,7 +97,6 @@ function displayEquipment ($table)
         <?php } ?>
     </div>
 <?php } ?>
-
 
 
 

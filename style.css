@@ -256,11 +256,12 @@ form{
 .form-id div input {
     width: 100%;
 }
-.text-warning{
+.text-warning {
     font-size: 16px;
     font-weight: bolder;
-
 }
+
+
 /*--------------------materiel-----------------*/
 
 .g-card {
