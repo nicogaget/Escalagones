@@ -2,7 +2,7 @@
 $pageTitle = 'Grimper en intérieur';
 include "_header.php";
 require "table.php";
-require "functions.php"
+
 ?>
     <div class="in-banner">
         <h2><?= $pageTitle ?> </h2>
@@ -20,17 +20,32 @@ require "functions.php"
         </div>
     </section>
     <section class="inside">
-        <div>
+        <div class="inside-type">
             <h3>Salles de voies</h3>
             <ul>
-                <?php foreach ($roomsVoies as $room) { ?>
-                    <li><?php echo $room[name] ?> </a></li>
+                <?php foreach ($roomsVoies as $item) { ?>
+                    <li><a href="<?= $item['webSite']?>" target="_blank"><?php echo $item['name'] ?></a> </li>
                 <?php } ?>
             </ul>
         </div>
+        <div class="inside-type">
+            <h3>Salles de bloc</h3>
+            <ul>
+                <?php foreach ($roomsBloc as $item) { ?>
+                    <li><a href="<?= $item['webSite']?>" target="_blank"><?php echo $item['name'] ?></a></li>
+                <?php } ?>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <article class="container-card">
 
-        <article>
-            <?php displayCardPage($roomsVoies) ?>
+            <?php foreach ($roomsVoies as $room) {
+                foreach (array($room) as $item) {
+                    include "card/insideCard.php";
+                } ?>
+            <?php }?>
+
         </article>
     </section>
 <?php include "_footer.php" ?>

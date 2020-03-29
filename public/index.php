@@ -1,13 +1,13 @@
 <?php $pageTitle ='EscalaGones';
- include "_header.php";
- require "table.php";
- require "functions.php";
+include "table.php";
+
+include "_header.php";
+
 ?>
 
 
     <div class="welcome-banner">
         <h1><?= $pageTitle ?> </h1>
-
     </div>
 
     <section class="main-index">
@@ -26,9 +26,18 @@
                 </div>
             </div>
         </div>
-            <?php displayIndexCard($welcomeInfos)?>
 
     </section>
 
 
-<?php include "_footer.php" ?>
+    <section class= "container-card">
+
+        <?php foreach ($welcomeInfos as $item) {
+            include "card/indexCard.php";
+        }?>
+
+    </section>
+
+
+
+<?php include "_footer.php";

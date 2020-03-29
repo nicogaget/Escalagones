@@ -1,7 +1,7 @@
 <?php $pageTitle ='Matériel';
 include "_header.php";
 require "table.php";
-require "functions.php"?>
+?>
 
     <div class="in-banner">
         <h2><?= $pageTitle ?> </h2>
@@ -15,8 +15,16 @@ require "functions.php"?>
         </div>
     </section>
 
-  <section class="equipment">
-    <?php displayEquipment($equipments)?>
+
+    <section class="container-card">
+        <?php
+        foreach ( $equipments as $item) {
+        include "card/equipmentCard.php";
+        }
+        ?>
+
+
+    </section>
 
 
 

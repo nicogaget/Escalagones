@@ -12,12 +12,7 @@ body {
     display: none;
 }
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
+
     background-color: #14b857;
     min-width: 23%;
     z-index: 20;
@@ -97,7 +92,7 @@ body {
     justify-content: center;
     height: 20%;
     background-size: cover;
-    padding-top:80px;
+
     color: white;
     letter-spacing: 2vw;
 }
@@ -139,21 +134,36 @@ h4{
 }
 
 .inside{
-    background-image: url("images/gd_climber_force.jpg");
-    background-repeat:  no-repeat;
-    background-size: cover;
-    background-position: center;
+    display: flex;
+    justify-content: space-around;
 }
+.inside-type {
+    margin-top: 20px;
+    flex: 3;
 
+}
+.inside-type ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+
+
+}
+.inside-type ul li {
+    font-size: 20px;
+    list-style-type: none;
+    padding :10px;
+}
 .outside{
-    background-image: url("images/ng_bloc5.jpg");
+
+
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .together{
-    background-image: url("images/together.jpg");
+
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: center;
@@ -187,7 +197,7 @@ h4{
 }
 .introduce-card-body p{
 
- }
+}
 .introduce-card-text{
     font-size: 16px;
     padding: 20px;
@@ -203,15 +213,11 @@ h4{
     flex-wrap: wrap;
     justify-content: center;
 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
 
 }
 .card{
     max-width: 350px;
-   height: auto;
+    height: auto;
     margin: 20px;
 }
 .card-header{
@@ -222,43 +228,44 @@ h4{
 
 }
 .card-body p{
+    font-size: 1.3rem;
     max-height: 200px;
     text-align: justify;
     overflow: auto;
 
- }
+}
+
+
 .card-text{
+    font-size: 1.3rem;
     padding: 5px;
     height: 300px;
 
 }
-iframe{
-    width: 466px;
-    height: 500px;
-}
+
 
 /* -------------------FORMULAIRE--------------- */
 
 form{
-    padding: 20px;
+    padding: 30px;
     margin: auto;
-    width: 60%;
+    width: 40%;
+    color: white;
+    font-weight: bold;
 }
-.form-id{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.form-control{
+    padding: 20px;
+    margin-bottom: 10px;
+}
 
+label{
+    margin: 0;
 }
-.form-id div{
-    width: 48%;
+.form{
+    background-image: url("images/bkg_equipment.jpeg");
 }
-.form-id div input {
-    width: 100%;
-}
-.text-warning {
-    font-size: 16px;
-    font-weight: bolder;
+.form p{
+    color: red;
 }
 
 
@@ -342,7 +349,7 @@ footer img {
     padding: 5px;
     margin: 5px;
 }
-@media only screen and (min-width:960px) {
+@media only screen and (min-width:1060px) {
     .navbar_mobile{
         display: none;
         width: 100%;

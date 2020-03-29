@@ -2,7 +2,7 @@
 $pageTitle ='Grimper en Extérieur';
 include "_header.php";
 require "table.php";
-require "functions.php";
+
 ?>
     <div class="in-banner">
         <h2><?= $pageTitle ?> </h2>
@@ -18,12 +18,12 @@ require "functions.php";
             </div>
         </div>
     </section>
-    <section class="outside">
-        <article class="cardSalles">
 
-            <?php displayCardPage($outsideRooms) ?>
-
-        </article>
+    <section class="container-card" >
+            <?php foreach ( $outsideRooms as $item) {
+                include "card/outsideCard.php";
+            }
+            ?>
 
     </section>
 <?php include "_footer.php"?>
