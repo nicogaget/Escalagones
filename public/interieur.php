@@ -42,7 +42,19 @@ require "table.php";
 
             <?php foreach ($roomsVoies as $room) {
                 foreach (array($room) as $item) {
-                    include "card/insideCard.php";
+                    include "card/insideVoieCard.php";
+                } ?>
+            <?php }?>
+
+        </article>
+    </section>
+
+    <section>
+        <article class="container-card">
+
+            <?php foreach ($roomsBloc as $room) {
+                foreach (array($room) as $item) {
+                    include "card/insideBlocCard.php";
                 } ?>
             <?php }?>
 
