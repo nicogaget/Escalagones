@@ -37,7 +37,7 @@
             </ul>
             </div>
             <div class ="navbar_desktop">
-            <ul class="nav" bs-active-link >
+            <ul class="nav">
                 <li><a class="nav-link" href="/index.php">Accueil</a></li>
                 <li><a class="nav-link" href="/interieur.php">Grimper en intérieur</a></li>
                 <li><a class="nav-link" href="/exterieur.php">Grimper en extérieur</a></li>

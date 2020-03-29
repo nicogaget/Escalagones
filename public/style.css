@@ -11,8 +11,9 @@ body {
 .navbar_desktop{
     display: none;
 }
-.navbar {
 
+.navbar {
+    padding:0;
     background-color: #14b857;
     min-width: 23%;
     z-index: 20;
@@ -21,17 +22,18 @@ body {
 .navbar ul {
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
+
 
 }
 
 .navbar ul li a {
     padding: 10px;
-    font-size: 24px;
+    font-size: 32px;
     text-decoration: none;
     text-align: center;
     color: white;
 }
+
 
 .contact{
 
@@ -42,17 +44,11 @@ body {
 .contact a{
     color: white;
 }
-.navbar ul li:hover,
-.contact:hover
-{
-    background-color: white;
-    color: green;
-}
+
 
 .navbar ul li a:hover,
 .contact a:hover{
     padding: 10px;
-    font-size: 24px;
     color: #5cb85c;
     text-decoration: none;
     background-color: white;
@@ -116,63 +112,12 @@ h4{
     font-weight: bolder;
     text-align: center;
 }
-.main-section{
+.intro-index{
+    font-size: 3vw;
     background-color: #14b857;
-}
-
-.main-index{
-    width: 100%;
-    height: 100%;
-    background-image: url(images/lyon.jpg);
-    background-repeat:  no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-.main-section{
-    background-color: #14b857;
-}
-
-.inside{
-    display: flex;
-    justify-content: space-around;
-}
-.inside-type {
-    margin-top: 20px;
-    flex: 3;
-
-}
-.inside-type ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around
-
-
-}
-.inside-type ul li {
-    font-size: 20px;
-    list-style-type: none;
-    padding :10px;
-}
-.outside{
-
-
-    background-repeat:  no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.together{
-
-    background-repeat:  no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.equipment{
-    background-image: url("images/bkg_equipment.jpeg");
-    background-repeat:  no-repeat;
-    background-size: cover;
-    background-position: center;
+    margin: 0;
+    padding: 20px;
+    color: white;
 }
 .introduce-card{
     width: 100%;
@@ -204,6 +149,75 @@ h4{
     margin: 0;
     color: white;
 }
+.main-section{
+    background-color: #14b857;
+}
+
+.main-index{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/lyon.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.main-section{
+    background-color: #14b857;
+}
+
+.inside{
+    display: flex;
+    justify-content: space-around;
+}
+.inside-type {
+    margin-top: 20px;
+    flex: 3;
+
+}
+.inside-type ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    align-content: stretch;
+
+
+}
+.inside-type ul li {
+    display: flex;
+    font-size: 20px;
+    list-style-type: none;
+    padding :10px;
+    width: 100%;
+    justify-content: center;
+
+}
+.inside-type ul li a{
+    text-align: center;
+}
+.outside{
+
+
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.together{
+
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.equipment{
+    background-image: url("images/bkg_equipment.jpeg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .main-inside{
     background-image: url("images/pp_voie.jpg");
 }
@@ -213,7 +227,12 @@ h4{
     flex-wrap: wrap;
     justify-content: center;
 
-
+}
+.container-card-index{
+    background-image: url("images/card-index.jpeg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .card{
     max-width: 350px;
@@ -362,7 +381,11 @@ footer img {
     .navbar_desktop .nav{
         width: 100%;
         display: flex;
+        justify-content: space-around;
     }
+    .navbar_desktop .nav ul li {
+       margin: auto;
+     }
 
 
 }
