@@ -1,5 +1,6 @@
 <?php
 $pageTitle ='Grimper en Extérieur';
+$current_nav= 'exterieur';
 include "_header.php";
 require "table.php";
 

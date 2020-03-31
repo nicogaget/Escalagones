@@ -1,4 +1,5 @@
 <?php $pageTitle ='Matériel';
+$current_nav = 'equipement';
 include "_header.php";
 require "table.php";
 ?>

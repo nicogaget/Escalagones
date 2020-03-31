@@ -1,5 +1,6 @@
 <?php
 $pageTitle = 'Grimper en intérieur';
+$current_nav= 'interieur';
 include "_header.php";
 require "table.php";
 

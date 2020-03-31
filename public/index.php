@@ -1,6 +1,6 @@
 <?php $pageTitle ='EscalaGones';
+$current_nav = 'index';
 include "table.php";
-
 include "_header.php";
 
 ?>

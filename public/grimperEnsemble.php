@@ -1,4 +1,5 @@
 <?php $pageTitle ='Grimper Ensemble';
+$current_nav= 'together';
 include "_header.php";
 require "table.php";
 

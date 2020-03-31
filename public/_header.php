@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -18,32 +17,32 @@
 
             <div class="navbar_mobile">
             <ul class="nav nav-pills">
-                <li class="nav-item">
+                <li class="nav-item"<?php if ($current_nav == 'index') {echo ' id="current"';}?>>
                     <a class="nav-link " href="index.php">Accueil</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/interieur.php">Grimper en intérieur</a>
+                        <a class="dropdown-item" <?php if ($current_nav == 'interieur') {echo ' id="current"';}?>href="/interieur.php">Grimper en intérieur</a>
                         <a class="dropdown-item" href="/exterieur.php">Grimper en extérieur</a>
                         <a class="dropdown-item" href="/grimperEnsemble.php">Grimper ensemble</a>
                         <a class="dropdown-item" href="/materiel.php">Matériel</a>
-                        <a class="dropdown-item" href="/messageConfirm.php.php">confirm</a>
+
                     </div>
                 </li>
-                <li><div class="nav-item contact">
+                <li><div class="nav-item contact"<?php if ($current_nav == 'contact') {echo ' id="current"';}?>>
                         <a class="nav-link" href="contact.php">Contact</a>
                     </div</li>
             </ul>
             </div>
             <div class ="navbar_desktop">
             <ul class="nav">
-                <li><a class="nav-link" href="/index.php">Accueil</a></li>
-                <li><a class="nav-link" href="/interieur.php">Grimper en intérieur</a></li>
-                <li><a class="nav-link" href="/exterieur.php">Grimper en extérieur</a></li>
-                <li><a class="nav-link" href="/grimperEnsemble.php">Grimper ensemble</a></li>
-                <li><a class="nav-link" href="/materiel.php">Matériel</a></li>
-                <li><a class="nav-link" href="/contact.php">Contact</a></li>
+                <li<?php if ($current_nav == 'index') {echo ' id="current"';}?> ><a class="nav-link" href="/index.php">Accueil</a></li>
+                <li<?php if ($current_nav == 'interieur') {echo ' id="current"';}?>><a class="nav-link" href="/interieur.php">Intérieur</a></li>
+                <li<?php if ($current_nav == 'exterieur') {echo ' id="current"';}?>><a class="nav-link" href="/exterieur.php">Extérieur</a></li>
+                <li<?php if ($current_nav == 'together') {echo ' id="current"';}?>><a class="nav-link" href="/grimperEnsemble.php">Ensemble</a></li>
+                <li<?php if ($current_nav == 'equipement') {echo ' id="current"';}?>><a class="nav-link" href="/materiel.php">Matériel</a></li>
+                <li<?php if ($current_nav == 'contact') {echo ' id="current"';}?>><a class="nav-link" href="/contact.php">Contact</a></li>
             </ul>
            </div>
 
