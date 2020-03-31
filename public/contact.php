@@ -33,6 +33,26 @@ if(!empty($_POST))
 
     if (count($errors) == 0)
     {
+        $firstName = $_POST['firstname'];
+        $lastName = $_POST['lastname'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
+
+        require_once "../connec.php";
+
+        $pdo = new PDO (DSN, USER, PASS);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        $query = "INSERT INTO contact (`firstname`, `lastname`, `email`, `message`) VALUES (:firstname, :lastname, :email, :message)";
+        $st = $pdo->prepare($query);
+
+        $st->bindValue(':firstname', $firstName);
+        $st->bindValue(':lastname', $lastName);
+        $st->bindValue(':email', $email);
+        $st->bindValue(':message', $message);
+
+        $st->execute();
+
 
         header("Location:messageConfirm.php?name=$_POST[firstname]&lastName=$_POST[lastname]&object=$_POST[object]&email=$_POST[email]&message=$_POST[message]");
     }
@@ -66,7 +86,7 @@ if(!empty($_POST))
             </div>
 
             <label class="label" data-error="wrong" data-success="right" for="message">Votre message</label>
-            <textarea type="text" name="message" id="message" class="md-textarea form-control" rows="4" value="<?php if(isset($_POST['message'])) echo $_POST['message']; ?>"></textarea>
+            <textarea type="textaera" name="message" id="message" class="md-textarea form-control" rows="4" value="<?php if(isset($_POST['message'])) echo $_POST['message']; ?>"></textarea>
             <p><?php if(isset($errors['message1'])) echo $errors['message1']; ?></p>
 
             <div class="button">
