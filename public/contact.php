@@ -35,6 +35,7 @@ if(!empty($_POST))
     {
         $firstName = $_POST['firstname'];
         $lastName = $_POST['lastname'];
+        $object = $_POST['object'];
         $email = $_POST['email'];
         $message = $_POST['message'];
 
@@ -43,11 +44,12 @@ if(!empty($_POST))
         $pdo = new PDO (DSN, USER, PASS);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $query = "INSERT INTO contact (`firstname`, `lastname`, `email`, `message`) VALUES (:firstname, :lastname, :email, :message)";
+        $query = "INSERT INTO contacts (`firstname`, `lastname`,`object`, `email`, `message`) VALUES (:firstname, :lastname,:object, :email, :message)";
         $st = $pdo->prepare($query);
 
         $st->bindValue(':firstname', $firstName);
         $st->bindValue(':lastname', $lastName);
+        $st->bindValue(':object', $object);
         $st->bindValue(':email', $email);
         $st->bindValue(':message', $message);
 
@@ -76,13 +78,8 @@ if(!empty($_POST))
             <p><?php if(isset($errors['email1'])) echo $errors['email1']; ?></p>
             <div>
                 <label class="label" data-error="wrong" data-success="right"  for="object">Objet de votre message</label>
-                <select type="text" id="object" name="object" >
-
-                    <option value="">Je souhaite proposer un événement</option>
-                    <option value="">Je souhaite proposer un lieu</option>
-                    <option value="">Je souhaite vous contacter</option>
-                    <option value="">Autres...</option>
-                </select>
+                <input type="text" name="object" id="object" class="form-control validate" value="<?php if(isset($_POST['object'])) echo $_POST['object']; ?>">
+                <p><?php if(isset($errors['object1'])) echo $errors['object1']; ?></p>
             </div>
 
             <label class="label" data-error="wrong" data-success="right" for="message">Votre message</label>

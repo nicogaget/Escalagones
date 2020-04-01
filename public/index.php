@@ -1,7 +1,7 @@
 <?php $pageTitle ='EscalaGones';
 $current_nav = 'index';
-include "table.php";
 include "_header.php";
+
 
 ?>
 
@@ -22,9 +22,20 @@ include "_header.php";
 
 
     <section class= "container-card container-card-index">
+        <?php
+        require_once "../connec.php";
+        $pdo = new PDO(DSN, USER, PASS);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        $query = "SELECT * FROM welcomeInfos";
+        $st = $pdo->query($query);
+        $welcomeInfos = $st->fetchAll(PDO::FETCH_ASSOC);
+
+        ?>
 
         <?php foreach ($welcomeInfos as $item) {
             include "card/indexCard.php";
+
         }?>
 
     </section>

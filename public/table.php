@@ -57,7 +57,7 @@ $roomsVoies = [
         'imgAlt' => "CLIMB UP LYON GERLAND"
     ],
     ['type' => 'Salle de voie',
-        'name' => 'ESCALADE A L\'ARBRESLE',
+        'name' => "ESCALADE A L'ARBRESLE",
         'infos' => 'Voies, blocs, grimpeur.se débutant.e ou confirmé.e, en cours ou en accès libre, enfant ou adulte, tous pratiquent dans ce même lieu de vie!',
         'openingTime' => ' Mardi & Jeudi 12:00-22:00 / Mercredi & Vendredi 14:00-22:00 / Samedi 09:00-18:00',
         'webSiteName' => 'espace-escalade.com',
@@ -123,7 +123,7 @@ $events = [
         'photoCreditLink' => 'https://visualhunt.com/re6/95a6fcb0',
         'photoCreditName' => 'Visualhunt.com'
     ],
-    ['name' => 'Ice Climbing !',
+    ['name' => 'Ice Climbing!',
         'infos' => 'Dimanche 22 mars, nous vous proposons de venir affronter les torrents glacés des Alpes. Au programme, escalade d\'une cascade gelée, qui promet pas mal de frissons !',
         'webSite' => '#',
         'img' => 'images/gd_iceClimb.jpg',
