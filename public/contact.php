@@ -56,7 +56,7 @@ if(!empty($_POST))
         $st->execute();
 
 
-        header("Location:messageConfirm.php?name=$_POST[firstname]&lastName=$_POST[lastname]&object=$_POST[object]&email=$_POST[email]&message=$_POST[message]");
+        header("Location:admin/messageConfirm.php?name=$_POST[firstname]&lastName=$_POST[lastname]&object=$_POST[object]&email=$_POST[email]&message=$_POST[message]");
     }
 
 }

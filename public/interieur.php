@@ -2,7 +2,6 @@
 $pageTitle = 'Grimper en intérieur';
 $current_nav= 'interieur';
 include "_header.php";
-require "table.php";
 
 ?>
     <div class="in-banner">
@@ -20,32 +19,53 @@ require "table.php";
             </div>
         </div>
     </section>
+<?php
+    require_once "../connec.php";
+    $pdo = new PDO(DSN, USER, PASS);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $query = "SELECT * FROM spots";
+    $st = $pdo->query($query);
+    $spots = $st->fetchAll(PDO::FETCH_ASSOC);
+
+?>
+
+
     <section class="inside">
         <div class="inside-type">
-            <h3>Salles de voies</h3>
+            <h3 style="color :#ff721c">Salles de voies</h3>
             <ul>
-                <?php foreach ($roomsVoies as $item) { ?>
-                    <li><a href="<?= $item['webSite']?>" target="_blank"><?php echo $item['name'] ?></a> </li>
-                <?php } ?>
+                <?php foreach ($spots as $item) :
+                    if ($item['type']=='voie'): ?>
+                        <li><a href="#<?= $item['id']?>" id target="_blank"><?php echo $item['name'] ?></a> </li>
+                    <?php endif ?>
+                <?php endforeach ?>
             </ul>
         </div>
+
         <div class="inside-type">
-            <h3>Salles de bloc</h3>
+            <h3 style="color:#14b857">Salles de bloc</h3>
             <ul>
-                <?php foreach ($roomsBloc as $item) { ?>
-                    <li><a href="<?= $item['webSite']?>" target="_blank"><?php echo $item['name'] ?></a></li>
-                <?php } ?>
+                <?php foreach ($spots as $item) :
+                    if ($item['type']=='bloc'): ?>
+                        <li><a href="<?= $item['webSite']?>" target="_blank"><?php echo $item['name'] ?></a> </li>
+                    <?php endif ?>
+                <?php endforeach ?>
             </ul>
         </div>
     </section>
+
     <section>
         <article class="container-card">
 
-            <?php foreach ($roomsVoies as $room) {
-                foreach (array($room) as $item) {
-                    include "card/insideVoieCard.php";
-                } ?>
-            <?php }?>
+            <?php foreach ($spots as $room) {
+                if ($room['type']=='voie'){
+                    foreach (array($room) as $item) {
+                        include "card/insideVoieCard.php";
+                     }
+                }
+            }
+            ?>
+
 
         </article>
     </section>
@@ -53,11 +73,14 @@ require "table.php";
     <section>
         <article class="container-card">
 
-            <?php foreach ($roomsBloc as $room) {
-                foreach (array($room) as $item) {
-                    include "card/insideBlocCard.php";
-                } ?>
-            <?php }?>
+            <?php foreach ($spots as $room) {
+                if ($room['type']=='bloc'){
+                    foreach (array($room) as $item) {
+                        include "card/insideBlocCard.php";
+                    }
+                }
+            }
+            ?>
 
         </article>
     </section>

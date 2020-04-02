@@ -1,7 +1,7 @@
 <?php $pageTitle ='Grimper Ensemble';
 $current_nav= 'together';
 include "_header.php";
-require "table.php";
+
 
 ?>
     <!-- Code pour la page "Grimper Ensemble"-->
@@ -17,11 +17,19 @@ require "table.php";
             </div>
         </div>
     </section>
-    <section class="together">
+<?php
+    require_once "../connec.php";
+    $pdo = new PDO(DSN, USER, PASS);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $query = "SELECT * FROM together";
+    $st = $pdo->query($query);
+    $together = $st->fetchAll(PDO::FETCH_ASSOC);
+?>
 
+    <section class="together">
         <article class="container-card">
             <?php
-            foreach ( $events as $item) {
+            foreach ( $together as $item) {
                 include "card/togetherCard.php";
             }?>
 
@@ -31,9 +39,18 @@ require "table.php";
             <h3>Trouver un.e partenaire de grimpe!</h3>
         </div>
 
+        <?php
+        require_once "../connec.php";
+        $pdo = new PDO(DSN, USER, PASS);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $query = "SELECT * FROM events";
+        $st = $pdo->query($query);
+        $events = $st->fetchAll(PDO::FETCH_ASSOC);
+        ?>
+
         <article class="container-card">
             <?php
-            foreach ( $climbTogether as $item) {
+            foreach ( $events as $item) {
                 include "card/togetherCard.php";
             }?>
         </article>

@@ -2,7 +2,7 @@
 $pageTitle ='Grimper en Extérieur';
 $current_nav= 'exterieur';
 include "_header.php";
-require "table.php";
+
 
 ?>
     <div class="in-banner">
@@ -19,12 +19,24 @@ require "table.php";
             </div>
         </div>
     </section>
-
+<?php
+    require_once "../connec.php";
+    $pdo = new PDO(DSN, USER, PASS);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $query = "SELECT * FROM spots";
+    $st = $pdo->query($query);
+    $spots = $st->fetchAll(PDO::FETCH_ASSOC);
+?>
     <section class="container-card" >
-            <?php foreach ( $outsideRooms as $item) {
-                include "card/outsideCard.php";
+        <?php foreach ($spots as $room) {
+            if ($room["in_out"] == 1){
+                foreach (array($room) as $item) {
+                    include "card/outsideCard.php";
+                }
             }
-            ?>
+        }
+        ?>
+
 
     </section>
 <?php include "_footer.php"?>

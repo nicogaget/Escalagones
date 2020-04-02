@@ -5,7 +5,7 @@
             <a href="Contact" title="ouvre un formulaire de contact">Contactez-nous</a>
             <a href="#" data-toggle="modal" data-target="#exampleModalCenter"
                title="permet de voir les mentions légales du site">Mentions légales</a>
-            <a href="admin/admin.php">Admin</a>
+
             </div>
             <div class="social-link">
             <img src="images/icon_facebook.png" alt="icone facebook">

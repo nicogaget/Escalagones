@@ -1,7 +1,6 @@
 <?php $pageTitle ='Matériel';
 $current_nav = 'equipement';
 include "_header.php";
-require "table.php";
 ?>
 
     <div class="in-banner">
@@ -15,7 +14,15 @@ require "table.php";
             </div>
         </div>
     </section>
+<?php
+    require_once "../connec.php";
+    $pdo = new PDO(DSN, USER, PASS);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $query = "SELECT * FROM equipments";
+    $st = $pdo->query($query);
+    $equipments = $st->fetchAll(PDO::FETCH_ASSOC);
 
+?>
 
     <section class="container-card">
         <?php

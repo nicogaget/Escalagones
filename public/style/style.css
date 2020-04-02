@@ -1,4 +1,9 @@
-
+*{
+box-sizing:unset;
+}
+html{
+    height: 100%;
+}
 body {
     height: 100%;
     margin: 0;
@@ -77,7 +82,7 @@ body {
     justify-content: center;
     color: #ff721c;
     letter-spacing: 20px;
-    background-image: url("images/lyon.jpg");
+    background-image: url("../images/lyon.jpg");
     height: 20%;
     background-repeat: no-repeat;
     background-position: center;
@@ -90,7 +95,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 20%;
+    height: 10%;
     background-size: cover;
 
     color: white;
@@ -159,8 +164,7 @@ h4{
 
 .main-index{
     width: 100%;
-    height: 100%;
-    background-image: url(images/lyon.jpg);
+    background-image: url(../images/lyon.jpg);
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,13 +177,17 @@ h4{
 .inside{
     display: flex;
     justify-content: space-around;
+    border : 2px solid #ff721c;
 }
 .inside-type {
-    margin-top: 20px;
+    border : 2px solid #ff721c;
+   padding: 20px;
     flex: 3;
 
 }
 .inside-type ul{
+
+    min-height: 100px;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -194,12 +202,9 @@ h4{
     font-size: 20px;
     list-style-type: none;
     padding :10px;
-    width: 100%;
+
     justify-content: center;
 
-}
-.inside-type ul li a{
-    text-align: center;
 }
 .outside{
 
@@ -216,14 +221,14 @@ h4{
     background-position: center;
 }
 .equipment{
-    background-image: url("images/bkg_equipment.jpeg");
+    background-image: url("../images/bkg_equipment.jpeg");
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .main-inside{
-    background-image: url("images/pp_voie.jpg");
+    background-image: url("../images/pp_voie.jpg");
 }
 
 .container-card{
@@ -233,7 +238,7 @@ h4{
 
 }
 .container-card-index{
-    background-image: url("images/card-index.jpeg");
+    background-image: url("../images/card-index.jpeg");
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: center;
@@ -287,7 +292,7 @@ label{
 }
 .main-contact{
     height :100%;
-    background-image: url("images/bkg_equipment.jpeg");
+    background-image: url("../images/bkg_equipment.jpeg");
 
     background-repeat:  no-repeat;
     background-size: cover;
@@ -329,7 +334,15 @@ form{
     flex-direction: column;
 }
 .table-equipment{
-    color: white;
+    color: #ff721c;
+    margin: 20px;
+}
+.table-responsive{
+    display: flex;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
 }
 .orange{
     background-color: #ff721c;
@@ -344,22 +357,25 @@ form{
     background-color: #14b857;
 }
 
+
 .confirm{
 
-    background-image: url("images/Ville-de-Lyon.jpg");
+    background-image: url("../images/Ville-de-Lyon.jpg");
     background-repeat:  no-repeat;
     background-size: cover;
     background-position: center;
 }
+/*----------tableau message----------*/
+
+
+
 /*----------FOOTER----------*/
 footer {
-
-    box-sizing :none;
+    box-sizing: unset;
     bottom:0;
     display: flex;
     flex-direction: row;
     background-color: #14b857;
-
     width: 100%;
 }
 
@@ -425,7 +441,7 @@ footer img {
         justify-content: space-around;
     }
     .navbar_desktop .nav li {
-        width :16%;
+        width :12%;
 
      }
 
